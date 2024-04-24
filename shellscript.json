@@ -1,0 +1,206 @@
+{
+    "00": {
+        "number": "00",
+        "question": ""
+    },
+    "01": {
+        "number": "01",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that prints 'Hello, World!'.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that prints 'Hello, World!'.\n\nWrite a shell script that prints 'Hello, World!'."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that takes a name as input and prints 'Hello, <name>!'.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that greets users by name.\n\nWrite a shell script that takes a name as input and prints 'Hello, <name>!'."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that prints the current date and time.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that displays the current date and time.\n\nWrite a shell script that prints the current date and time."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that prints the current user's username.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that displays the current user's username.\n\nWrite a shell script that prints the current user's username."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that takes two numbers as input and prints their sum.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that adds two numbers.\n\nWrite a shell script that takes two numbers as input and prints their sum."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that takes a filename as input and checks if it exists.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies the existence of files.\n\nWrite a shell script that takes a filename as input and checks if it exists."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that renames a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that renames files.\n\nWrite a shell script that renames a file."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that deletes a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that deletes files.\n\nWrite a shell script that deletes a file."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that creates a directory.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that creates directories.\n\nWrite a shell script that creates a directory."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that lists all files in a directory.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that lists directory contents.\n\nWrite a shell script that lists all files in a directory."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that counts the number of lines in a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that counts lines in files.\n\nWrite a shell script that counts the number of lines in a file."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that searches for a string in a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that searches for specific text in files.\n\nWrite a shell script that searches for a string in a file."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that appends text to a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that adds content to files.\n\nWrite a shell script that appends text to a file."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that reads a file line by line and prints each line.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that processes files line by line.\n\nWrite a shell script that reads a file line by line and prints each line."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a command-line argument is provided.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that handles command-line arguments.\n\nWrite a shell script that checks if a command-line argument is provided."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that performs arithmetic operations (+, -, *, /).\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that performs basic arithmetic operations.\n\nWrite a shell script that performs arithmetic operations (+, -, *, /)."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a number is even or odd.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that checks for even or odd numbers.\n\nWrite a shell script that checks if a number is even or odd."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that takes a list of filenames as input and prints their sizes.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that retrieves file sizes.\n\nWrite a shell script that takes a list of filenames as input and prints their sizes."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that prints the last 10 lines of a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that displays the last lines of files.\n\nWrite a shell script that prints the last 10 lines of a file."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that sorts lines in a file alphabetically.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that sorts lines in files.\n\nWrite a shell script that sorts lines in a file alphabetically."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that finds the largest number in a list of numbers.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that identifies the largest number.\n\nWrite a shell script that finds the largest number in a list of numbers."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a number is prime.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies prime numbers.\n\nWrite a shell script that checks if a number is prime."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that prints the Fibonacci sequence up to a certain number.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that generates Fibonacci sequences.\n\nWrite a shell script that prints the Fibonacci sequence up to a certain number."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a file is readable, writable, and executable.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that checks file permissions.\n\nWrite a shell script that checks if a file is readable, writable, and executable."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that performs string manipulation (substring, concatenation, etc.).\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that manipulates strings.\n\nWrite a shell script that performs string manipulation (substring, concatenation, etc.)."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that extracts specific information from a log file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that extracts data from log files.\n\nWrite a shell script that extracts specific information from a log file."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a directory is empty.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies empty directories.\n\nWrite a shell script that checks if a directory is empty."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the factorial of a number.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that computes factorials.\n\nWrite a shell script that calculates the factorial of a number."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the average of a list of numbers.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that calculates averages.\n\nWrite a shell script that calculates the average of a list of numbers."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that converts temperature between Fahrenheit and Celsius.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that converts temperatures.\n\nWrite a shell script that converts temperature between Fahrenheit and Celsius."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that generates a random password.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that generates random passwords.\n\nWrite a shell script that generates a random password."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a process is running.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies running processes.\n\nWrite a shell script that checks if a process is running."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that finds and replaces a string in a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that replaces text in files.\n\nWrite a shell script that finds and replaces a string in a file."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that extracts specific lines from a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that extracts specific lines from files.\n\nWrite a shell script that extracts specific lines from a file."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a file is a symbolic link.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies symbolic links.\n\nWrite a shell script that checks if a file is a symbolic link."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks disk usage.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that examines disk usage.\n\nWrite a shell script that checks disk usage."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the square root of a number.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that computes square roots.\n\nWrite a shell script that calculates the square root of a number."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that sorts numbers in ascending order.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that sorts numbers.\n\nWrite a shell script that sorts numbers in ascending order."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the area of a circle.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that computes areas of circles.\n\nWrite a shell script that calculates the area of a circle."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a file is empty.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that verifies empty files.\n\nWrite a shell script that checks if a file is empty."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a user exists.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that validates user existence.\n\nWrite a shell script that checks if a user exists."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a network interface is up.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that examines network interfaces.\n\nWrite a shell script that checks if a network interface is up."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that extracts specific columns from a CSV file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that retrieves data from CSV files.\n\nWrite a shell script that extracts specific columns from a CSV file."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that converts a string to lowercase.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that converts strings to lowercase.\n\nWrite a shell script that converts a string to lowercase."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the average word length in a file.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that computes average word lengths.\n\nWrite a shell script that calculates the average word length in a file."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that generates a random number within a range.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that generates random numbers.\n\nWrite a shell script that generates a random number within a range."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that calculates the total size of a directory.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that determines directory sizes.\n\nWrite a shell script that calculates the total size of a directory."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that checks if a file is compressed.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that identifies compressed files.\n\nWrite a shell script that checks if a file is compressed."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that converts a string to uppercase.\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that converts strings to uppercase.\n\nWrite a shell script that converts a string to uppercase."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Lab Objective\nThe objective of this lab is to write a shell script that monitors system resources (CPU, memory, disk usage).\n\n# Outcome\nAfter completing this lab, you should be able to write a shell script that monitors system resources.\n\nWrite a shell script that monitors system resources (CPU, memory, disk usage)."
+    }
+}
