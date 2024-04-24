@@ -90,7 +90,7 @@ pipeline {
             steps {
                 script {
                     def containerName = 'devops-mentorship-site'
-                    def previousTag = sh(script: "docker ps -a | grep ${containerName} | awk '{print $2}'", returnStdout: true).trim()
+                    def previousTag = sh(script: "docker ps -a | grep ${containerName} | awk '{print \$2}'", returnStdout: true).trim()
                     def isRunning = sh(script: "docker ps -a | grep ${containerName}", returnStatus: true)
                     if(isRunning == 0) {
                         sh "docker rm -f ${containerName}"
