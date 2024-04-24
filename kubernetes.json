@@ -1,0 +1,402 @@
+{
+"01": {
+"number": "01",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a simple web application on Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage applications on Kubernetes.\n\nDeploy a simple web application on Kubernetes."
+},
+"02": {
+"number": "02",
+"question": "# Lab Objective\nThe objective of this lab is to create a Kubernetes cluster using Minikube.\n\n# Outcome\nAfter completing this lab, you should be able to set up a local Kubernetes environment for development and testing purposes.\n\nCreate a Kubernetes cluster using Minikube."
+},
+"03": {
+"number": "03",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a multi-tier application on Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to deploy complex applications with multiple components on Kubernetes.\n\nDeploy a multi-tier application on Kubernetes."
+},
+"04": {
+"number": "04",
+"question": "# Lab Objective\nThe objective of this lab is to scale a Kubernetes deployment.\n\n# Outcome\nAfter completing this lab, you should be able to scale applications dynamically based on demand.\n\nScale a Kubernetes deployment."
+},
+"05": {
+"number": "05",
+"question": "# Lab Objective\nThe objective of this lab is to perform rolling updates on Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to update applications seamlessly without downtime on Kubernetes.\n\nPerform rolling updates on Kubernetes."
+},
+"06": {
+"number": "06",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a stateful application on Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage stateful applications such as databases on Kubernetes.\n\nDeploy a stateful application on Kubernetes."
+},
+"07": {
+"number": "07",
+"question": "# Lab Objective\nThe objective of this lab is to set up a Kubernetes Ingress controller.\n\n# Outcome\nAfter completing this lab, you should be able to expose Kubernetes services to the outside world and manage routing.\n\nSet up a Kubernetes Ingress controller."
+},
+"08": {
+"number": "08",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes dashboard.\n\n# Outcome\nAfter completing this lab, you should be able to visualize and manage your Kubernetes cluster using a web-based dashboard.\n\nDeploy a Kubernetes dashboard."
+},
+"09": {
+"number": "09",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes RBAC (Role-Based Access Control).\n\n# Outcome\nAfter completing this lab, you should be able to define fine-grained access controls for Kubernetes resources.\n\nImplement Kubernetes RBAC."
+},
+"10": {
+"number": "10",
+"question": "# Lab Objective\nThe objective of this lab is to configure Kubernetes autoscaling.\n\n# Outcome\nAfter completing this lab, you should be able to automatically adjust the number of pods in a deployment based on resource usage.\n\nConfigure Kubernetes autoscaling."
+},
+"11": {
+"number": "11",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes Helm chart.\n\n# Outcome\nAfter completing this lab, you should be able to package, configure, and deploy applications on Kubernetes using Helm.\n\nDeploy a Kubernetes Helm chart."
+},
+"12": {
+"number": "12",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes network policies.\n\n# Outcome\nAfter completing this lab, you should be able to control network traffic to and from Kubernetes pods using policies.\n\nImplement Kubernetes network policies."
+},
+"13": {
+"number": "13",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Kubernetes using Knative.\n\n# Outcome\nAfter completing this lab, you should be able to build and deploy serverless applications on Kubernetes.\n\nDeploy a serverless application on Kubernetes using Knative."
+},
+"14": {
+"number": "14",
+"question": "# Lab Objective\nThe objective of this lab is to set up monitoring and logging for Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to monitor cluster health, performance, and log data in a Kubernetes environment.\n\nSet up monitoring and logging for Kubernetes."
+},
+"15": {
+"number": "15",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster on a cloud provider (e.g., AWS, GCP, Azure).\n\n# Outcome\nAfter completing this lab, you should be able to provision and manage Kubernetes clusters on cloud infrastructure.\n\nDeploy a Kubernetes cluster on a cloud provider."
+},
+"16": {
+"number": "16",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes secrets management.\n\n# Outcome\nAfter completing this lab, you should be able to securely store and manage sensitive information such as passwords, API keys, and certificates in Kubernetes.\n\nImplement Kubernetes secrets management."
+},
+"17": {
+"number": "17",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a CI/CD pipeline for Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to automate the building, testing, and deployment of applications on Kubernetes using CI/CD pipelines.\n\nDeploy a CI/CD pipeline for Kubernetes."
+},
+"18": {
+"number": "18",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes pod security policies.\n\n# Outcome\nAfter completing this lab, you should be able to define security policies that restrict the capabilities of Kubernetes pods.\n\nImplement Kubernetes pod security policies."
+},
+"19": {
+"number": "19",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with high availability.\n\n# Outcome\nAfter completing this lab, you should be able to set up Kubernetes clusters that ensure high availability and fault tolerance.\n\nDeploy a Kubernetes cluster with high availability."
+},
+"20": {
+"number": "20",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes custom resource definitions (CRDs).\n\n# Outcome\nAfter completing this lab, you should be able to extend the Kubernetes API with custom resource types.\n\nImplement Kubernetes custom resource definitions (CRDs)."
+},
+"21": {
+"number": "21",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Kubernetes using OpenFaaS.\n\n# Outcome\nAfter completing this lab, you should be able to build and deploy serverless functions on Kubernetes using OpenFaaS.\n\nDeploy a serverless application on Kubernetes using OpenFaaS."
+},
+"22": {
+"number": "22",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Istio for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to set up service mesh capabilities such as traffic management, security, and observability in Kubernetes using Istio.\n\nDeploy a Kubernetes cluster with Istio for service mesh."
+},
+"23": {
+"number": "23",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes custom controllers.\n\n# Outcome\nAfter completing this lab, you should be able to extend Kubernetes functionality by writing custom controllers that automate tasks or enforce policies.\n\nImplement Kubernetes custom controllers."
+},
+"24": {
+"number": "24",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Prometheus and Grafana for monitoring.\n\n# Outcome\nAfter completing this lab, you should be able to set up comprehensive monitoring and visualization of Kubernetes clusters using Prometheus and Grafana.\n\nDeploy a Kubernetes cluster with Prometheus and Grafana for monitoring."
+},
+"25": {
+"number": "25",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes admission controllers.\n\n# Outcome\nAfter completing this lab, you should be able to enforce custom admission policies for Kubernetes resources.\n\nImplement Kubernetes admission controllers."
+},
+"26": {
+"number": "26",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Calico for network policy enforcement.\n\n# Outcome\nAfter completing this lab, you should be able to secure and isolate workloads in Kubernetes clusters using Calico.\n\nDeploy a Kubernetes cluster with Calico for network policy enforcement."
+},
+"27": {
+"number": "27",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Kubernetes using Kubeless.\n\n# Outcome\nAfter completing this lab, you should be able to develop and deploy serverless functions on Kubernetes using Kubeless.\n\nDeploy a serverless application on Kubernetes using Kubeless."
+},
+"28": {
+"number": "28",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Flannel for network overlay.\n\n# Outcome\nAfter completing this lab, you should be able to set up networking between pods in Kubernetes clusters using Flannel.\n\nDeploy a Kubernetes cluster with Flannel for network overlay."
+},
+"29": {
+"number": "29",
+"question": "# Lab Objective\nThe objective of this lab is to implement Kubernetes pod disruption budgets.\n\n# Outcome\nAfter completing this lab, you should be able to control the disruption of Kubernetes pods during maintenance or updates.\n\nImplement Kubernetes pod disruption budgets."
+},
+"30": {
+"number": "30",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Weave Net for network policy enforcement.\n\n# Outcome\nAfter completing this lab, you should be able to implement network policies and secure communication between pods in Kubernetes clusters using Weave Net.\n\nDeploy a Kubernetes cluster with Weave Net for network policy enforcement."
+},
+"31": {
+"number": "31",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Linkerd for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to implement service mesh capabilities such as traffic management and security in Kubernetes clusters using Linkerd.\n\nDeploy a Kubernetes cluster with Linkerd for service mesh."
+},
+"32": {
+"number": "32",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Traefik for ingress routing.\n\n# Outcome\nAfter completing this lab, you should be able to set up ingress routing and load balancing for applications deployed on Kubernetes using Traefik.\n\nDeploy a Kubernetes cluster with Traefik for ingress routing."
+},
+"33": {
+"number": "33",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with MetalLB for bare metal load balancing.\n\n# Outcome\nAfter completing this lab, you should be able to deploy Kubernetes clusters on bare metal environments and provide load balancing services using MetalLB.\n\nDeploy a Kubernetes cluster with MetalLB for bare metal load balancing."
+},
+"34": {
+"number": "34",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Rook for storage orchestration.\n\n# Outcome\nAfter completing this lab, you should be able to provision and manage storage for stateful applications in Kubernetes clusters using Rook.\n\nDeploy a Kubernetes cluster with Rook for storage orchestration."
+},
+"35": {
+"number": "35",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with OpenEBS for containerized storage.\n\n# Outcome\nAfter completing this lab, you should be able to provide persistent storage for stateful applications in Kubernetes clusters using OpenEBS.\n\nDeploy a Kubernetes cluster with OpenEBS for containerized storage."
+},
+"36": {
+"number": "36",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Velero for backup and restore.\n\n# Outcome\nAfter completing this lab, you should be able to implement backup and restore strategies for Kubernetes clusters using Velero.\n\nDeploy a Kubernetes cluster with Velero for backup and restore."
+},
+"37": {
+"number": "37",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeVirt for running virtual machines.\n\n# Outcome\nAfter completing this lab, you should be able to run virtualized workloads alongside containers in Kubernetes clusters using KubeVirt.\n\nDeploy a Kubernetes cluster with KubeVirt for running virtual machines."
+},
+"38": {
+"number": "38",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Helm Operator for managing Helm charts.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of applications on Kubernetes using Helm Operator.\n\nDeploy a Kubernetes cluster with Helm Operator for managing Helm charts."
+},
+"39": {
+"number": "39",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Longhorn for distributed block storage.\n\n# Outcome\nAfter completing this lab, you should be able to provide scalable and reliable block storage for Kubernetes clusters using Longhorn.\n\nDeploy a Kubernetes cluster with Longhorn for distributed block storage."
+},
+"40": {
+"number": "40",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeEdge for edge computing.\n\n# Outcome\nAfter completing this lab, you should be able to extend Kubernetes to edge devices and manage edge computing workloads using KubeEdge.\n\nDeploy a Kubernetes cluster with KubeEdge for edge computing."
+},
+"41": {
+"number": "41",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Knative for serverless computing.\n\n# Outcome\nAfter completing this lab, you should be able to build, deploy, and manage serverless applications on Kubernetes using Knative.\n\nDeploy a Kubernetes cluster with Knative for serverless computing."
+},
+"42": {
+"number": "42",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Cilium for network security.\n\n# Outcome\nAfter completing this lab, you should be able to implement network security policies and encryption for Kubernetes clusters using Cilium.\n\nDeploy a Kubernetes cluster with Cilium for network security."
+},
+"43": {
+"number": "43",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Open Policy Agent (OPA) for policy enforcement.\n\n# Outcome\nAfter completing this lab, you should be able to define and enforce policies for Kubernetes resources using Open Policy Agent.\n\nDeploy a Kubernetes cluster with Open Policy Agent (OPA) for policy enforcement."
+},
+"44": {
+"number": "44",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Fluentd and Elasticsearch for log aggregation.\n\n# Outcome\nAfter completing this lab, you should be able to collect, process, and visualize logs from Kubernetes clusters using Fluentd and Elasticsearch.\n\nDeploy a Kubernetes cluster with Fluentd and Elasticsearch for log aggregation."
+},
+"45": {
+"number": "45",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Keycloak for authentication and authorization.\n\n# Outcome\nAfter completing this lab, you should be able to implement single sign-on (SSO) and access control for Kubernetes clusters using Keycloak.\n\nDeploy a Kubernetes cluster with Keycloak for authentication and authorization."
+},
+"46": {
+"number": "46",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Harbor for container image registry.\n\n# Outcome\nAfter completing this lab, you should be able to store, secure, and distribute container images for Kubernetes clusters using Harbor.\n\nDeploy a Kubernetes cluster with Harbor for container image registry."
+},
+"47": {
+"number": "47",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Prometheus Operator for monitoring and alerting.\n\n# Outcome\nAfter completing this lab, you should be able to set up monitoring, alerting, and self-healing for Kubernetes clusters using Prometheus Operator.\n\nDeploy a Kubernetes cluster with Prometheus Operator for monitoring and alerting."
+},
+"48": {
+"number": "48",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Argo CD for continuous delivery.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of applications on Kubernetes using Argo CD.\n\nDeploy a Kubernetes cluster with Argo CD for continuous delivery."
+},
+"49": {
+"number": "49",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Portworx for cloud-native storage.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage cloud-native storage for Kubernetes clusters using Portworx.\n\nDeploy a Kubernetes cluster with Portworx for cloud-native storage."
+},
+"50": {
+"number": "50",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KEDA for event-driven autoscaling.\n\n# Outcome\nAfter completing this lab, you should be able to automatically scale applications based on events and triggers in Kubernetes using KEDA.\n\nDeploy a Kubernetes cluster with KEDA for event-driven autoscaling."
+},
+"51": {
+"number": "51",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kubeflow for machine learning workflows.\n\n# Outcome\nAfter completing this lab, you should be able to build, deploy, and manage machine learning workflows on Kubernetes using Kubeflow.\n\nDeploy a Kubernetes cluster with Kubeflow for machine learning workflows."
+},
+"52": {
+"number": "52",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeSphere for multi-tenant container management.\n\n# Outcome\nAfter completing this lab, you should be able to set up a multi-tenant container platform with user management, application lifecycle management, and monitoring on Kubernetes using KubeSphere.\n\nDeploy a Kubernetes cluster with KubeSphere for multi-tenant container management."
+},
+"53": {
+"number": "53",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Podman for container runtime.\n\n# Outcome\nAfter completing this lab, you should be able to run and manage containers in Kubernetes clusters using Podman as the container runtime.\n\nDeploy a Kubernetes cluster with Podman for container runtime."
+},
+"54": {
+"number": "54",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Contour for Kubernetes ingress routing.\n\n# Outcome\nAfter completing this lab, you should be able to set up secure and scalable ingress routing for Kubernetes clusters using Contour.\n\nDeploy a Kubernetes cluster with Contour for Kubernetes ingress routing."
+},
+"55": {
+"number": "55",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Jenkins X for cloud-native continuous integration and delivery (CI/CD).\n\n# Outcome\nAfter completing this lab, you should be able to automate the building, testing, and deployment of cloud-native applications on Kubernetes using Jenkins X.\n\nDeploy a Kubernetes cluster with Jenkins X for cloud-native CI/CD."
+},
+"56": {
+"number": "56",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Thanos for scalable and highly available Prometheus monitoring.\n\n# Outcome\nAfter completing this lab, you should be able to store, query, and visualize Prometheus metrics at scale in Kubernetes clusters using Thanos.\n\nDeploy a Kubernetes cluster with Thanos for scalable Prometheus monitoring."
+},
+"57": {
+"number": "57",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Rancher for centralized Kubernetes management.\n\n# Outcome\nAfter completing this lab, you should be able to manage multiple Kubernetes clusters from a single interface using Rancher.\n\nDeploy a Kubernetes cluster with Rancher for centralized Kubernetes management."
+},
+"58": {
+"number": "58",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kyverno for policy-based resource management.\n\n# Outcome\nAfter completing this lab, you should be able to enforce custom policies and controls for Kubernetes resources using Kyverno.\n\nDeploy a Kubernetes cluster with Kyverno for policy-based resource management."
+},
+"59": {
+"number": "59",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Velero for disaster recovery.\n\n# Outcome\nAfter completing this lab, you should be able to backup and restore Kubernetes clusters and applications using Velero for disaster recovery.\n\nDeploy a Kubernetes cluster with Velero for disaster recovery."
+},
+"60": {
+"number": "60",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Harbor for vulnerability scanning and image signing.\n\n# Outcome\nAfter completing this lab, you should be able to scan container images for vulnerabilities and sign them for security compliance using Harbor.\n\nDeploy a Kubernetes cluster with Harbor for vulnerability scanning and image signing."
+},
+"61": {
+"number": "61",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Dex and Gangway for single sign-on (SSO) authentication.\n\n# Outcome\nAfter completing this lab, you should be able to enable SSO authentication for Kubernetes clusters using Dex and Gangway.\n\nDeploy a Kubernetes cluster with Dex and Gangway for single sign-on (SSO) authentication."
+},
+"62": {
+"number": "62",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeEdge for edge computing.\n\n# Outcome\nAfter completing this lab, you should be able to extend Kubernetes to edge devices and manage edge computing workloads using KubeEdge.\n\nDeploy a Kubernetes cluster with KubeEdge for edge computing."
+},
+"63": {
+"number": "63",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Velero for disaster recovery.\n\n# Outcome\nAfter completing this lab, you should be able to backup and restore Kubernetes clusters and applications using Velero for disaster recovery.\n\nDeploy a Kubernetes cluster with Velero for disaster recovery."
+},
+"64": {
+"number": "64",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Argo Rollouts for progressive delivery (canary deployments, blue-green deployments).\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications with progressive delivery strategies using Argo Rollouts.\n\nDeploy a Kubernetes cluster with Argo Rollouts for progressive delivery."
+},
+"65": {
+"number": "65",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Flux for GitOps continuous delivery.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of Kubernetes applications using GitOps principles with Flux.\n\nDeploy a Kubernetes cluster with Flux for GitOps continuous delivery."
+},
+"66": {
+"number": "66",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kuma for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to implement service mesh capabilities such as traffic routing, security, and observability in Kubernetes clusters using Kuma.\n\nDeploy a Kubernetes cluster with Kuma for service mesh."
+},
+"67": {
+"number": "67",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Linkerd for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to implement service mesh capabilities such as traffic management and security in Kubernetes clusters using Linkerd.\n\nDeploy a Kubernetes cluster with Linkerd for service mesh."
+},
+"68": {
+"number": "68",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Ambassador for Kubernetes ingress routing.\n\n# Outcome\nAfter completing this lab, you should be able to set up edge routing and API gateway functionalities for applications deployed on Kubernetes using Ambassador.\n\nDeploy a Kubernetes cluster with Ambassador for Kubernetes ingress routing."
+},
+"69": {
+"number": "69",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Prometheus and Grafana for monitoring and alerting.\n\n# Outcome\nAfter completing this lab, you should be able to set up comprehensive monitoring and alerting for Kubernetes clusters using Prometheus and Grafana.\n\nDeploy a Kubernetes cluster with Prometheus and Grafana for monitoring and alerting."
+},
+"70": {
+"number": "70",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Portworx for persistent storage.\n\n# Outcome\nAfter completing this lab, you should be able to provide scalable and reliable persistent storage for applications deployed on Kubernetes using Portworx.\n\nDeploy a Kubernetes cluster with Portworx for persistent storage."
+},
+"71": {
+"number": "71",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Rancher for centralized management.\n\n# Outcome\nAfter completing this lab, you should be able to manage multiple Kubernetes clusters from a single interface using Rancher.\n\nDeploy a Kubernetes cluster with Rancher for centralized management."
+},
+"72": {
+"number": "72",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Knative for serverless computing.\n\n# Outcome\nAfter completing this lab, you should be able to build, deploy, and manage serverless applications on Kubernetes using Knative.\n\nDeploy a Kubernetes cluster with Knative for serverless computing."
+},
+"73": {
+"number": "73",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Traefik for ingress routing.\n\n# Outcome\nAfter completing this lab, you should be able to set up ingress routing and load balancing for applications deployed on Kubernetes using Traefik.\n\nDeploy a Kubernetes cluster with Traefik for ingress routing."
+},
+"74": {
+"number": "74",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Prometheus Operator for monitoring and alerting.\n\n# Outcome\nAfter completing this lab, you should be able to set up monitoring, alerting, and self-healing for Kubernetes clusters using Prometheus Operator.\n\nDeploy a Kubernetes cluster with Prometheus Operator for monitoring and alerting."
+},
+"75": {
+"number": "75",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with MetalLB for bare metal load balancing.\n\n# Outcome\nAfter completing this lab, you should be able to deploy Kubernetes clusters on bare metal environments and provide load balancing services using MetalLB.\n\nDeploy a Kubernetes cluster with MetalLB for bare metal load balancing."
+},
+"76": {
+"number": "76",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Istio for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to set up service mesh capabilities such as traffic management, security, and observability in Kubernetes using Istio.\n\nDeploy a Kubernetes cluster with Istio for service mesh."
+},
+"77": {
+"number": "77",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Helm Operator for managing Helm charts.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of applications on Kubernetes using Helm Operator.\n\nDeploy a Kubernetes cluster with Helm Operator for managing Helm charts."
+},
+"78": {
+"number": "78",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Cilium for network security.\n\n# Outcome\nAfter completing this lab, you should be able to implement network security policies and encryption for Kubernetes clusters using Cilium.\n\nDeploy a Kubernetes cluster with Cilium for network security."
+},
+"79": {
+"number": "79",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeVirt for running virtual machines.\n\n# Outcome\nAfter completing this lab, you should be able to run virtualized workloads alongside containers in Kubernetes clusters using KubeVirt.\n\nDeploy a Kubernetes cluster with KubeVirt for running virtual machines."
+},
+"80": {
+"number": "80",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Flannel for network overlay.\n\n# Outcome\nAfter completing this lab, you should be able to set up networking between pods in Kubernetes clusters using Flannel.\n\nDeploy a Kubernetes cluster with Flannel for network overlay."
+},
+"81": {
+"number": "81",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Knative for serverless computing.\n\n# Outcome\nAfter completing this lab, you should be able to build, deploy, and manage serverless applications on Kubernetes using Knative.\n\nDeploy a Kubernetes cluster with Knative for serverless computing."
+},
+"82": {
+"number": "82",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kyverno for policy-based resource management.\n\n# Outcome\nAfter completing this lab, you should be able to enforce custom policies and controls for Kubernetes resources using Kyverno.\n\nDeploy a Kubernetes cluster with Kyverno for policy-based resource management."
+},
+"83": {
+"number": "83",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Portworx for cloud-native storage.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage cloud-native storage for Kubernetes clusters using Portworx.\n\nDeploy a Kubernetes cluster with Portworx for cloud-native storage."
+},
+"84": {
+"number": "84",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Linkerd for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to implement service mesh capabilities such as traffic management and security in Kubernetes clusters using Linkerd.\n\nDeploy a Kubernetes cluster with Linkerd for service mesh."
+},
+"85": {
+"number": "85",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Argo CD for continuous delivery.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of applications on Kubernetes using Argo CD.\n\nDeploy a Kubernetes cluster with Argo CD for continuous delivery."
+},
+"86": {
+"number": "86",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KEDA for event-driven autoscaling.\n\n# Outcome\nAfter completing this lab, you should be able to automatically scale applications based on events and triggers in Kubernetes using KEDA.\n\nDeploy a Kubernetes cluster with KEDA for event-driven autoscaling."
+},
+"87": {
+"number": "87",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Traefik for ingress routing.\n\n# Outcome\nAfter completing this lab, you should be able to set up ingress routing and load balancing for applications deployed on Kubernetes using Traefik.\n\nDeploy a Kubernetes cluster with Traefik for ingress routing."
+},
+"88": {
+"number": "88",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with OpenEBS for containerized storage.\n\n# Outcome\nAfter completing this lab, you should be able to provide persistent storage for stateful applications in Kubernetes clusters using OpenEBS.\n\nDeploy a Kubernetes cluster with OpenEBS for containerized storage."
+},
+"89": {
+"number": "89",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Cilium for network security.\n\n# Outcome\nAfter completing this lab, you should be able to implement network security policies and encryption for Kubernetes clusters using Cilium.\n\nDeploy a Kubernetes cluster with Cilium for network security."
+},
+"90": {
+"number": "90",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeSphere for multi-tenant container management.\n\n# Outcome\nAfter completing this lab, you should be able to set up a multi-tenant container platform with user management, application lifecycle management, and monitoring on Kubernetes using KubeSphere.\n\nDeploy a Kubernetes cluster with KubeSphere for multi-tenant container management."
+},
+"91": {
+"number": "91",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Jenkins X for cloud-native continuous integration and delivery (CI/CD).\n\n# Outcome\nAfter completing this lab, you should be able to automate the building, testing, and deployment of cloud-native applications on Kubernetes using Jenkins X.\n\nDeploy a Kubernetes cluster with Jenkins X for cloud-native CI/CD."
+},
+"92": {
+"number": "92",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kubeflow for machine learning workflows.\n\n# Outcome\nAfter completing this lab, you should be able to build, deploy, and manage machine learning workflows on Kubernetes using Kubeflow.\n\nDeploy a Kubernetes cluster with Kubeflow for machine learning workflows."
+},
+"93": {
+"number": "93",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Velero for backup and restore.\n\n# Outcome\nAfter completing this lab, you should be able to implement backup and restore strategies for Kubernetes clusters using Velero.\n\nDeploy a Kubernetes cluster with Velero for backup and restore."
+},
+"94": {
+"number": "94",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Harbor for container image registry.\n\n# Outcome\nAfter completing this lab, you should be able to store, secure, and distribute container images for Kubernetes clusters using Harbor.\n\nDeploy a Kubernetes cluster with Harbor for container image registry."
+},
+"95": {
+"number": "95",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Fluentd and Elasticsearch for log aggregation.\n\n# Outcome\nAfter completing this lab, you should be able to collect, process, and visualize logs from Kubernetes clusters using Fluentd and Elasticsearch.\n\nDeploy a Kubernetes cluster with Fluentd and Elasticsearch for log aggregation."
+},
+"96": {
+"number": "96",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with KubeEdge for edge computing.\n\n# Outcome\nAfter completing this lab, you should be able to extend Kubernetes to edge devices and manage edge computing workloads using KubeEdge.\n\nDeploy a Kubernetes cluster with KubeEdge for edge computing."
+},
+"97": {
+"number": "97",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Velero for disaster recovery.\n\n# Outcome\nAfter completing this lab, you should be able to backup and restore Kubernetes clusters and applications using Velero for disaster recovery.\n\nDeploy a Kubernetes cluster with Velero for disaster recovery."
+},
+"98": {
+"number": "98",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Argo Rollouts for progressive delivery (canary deployments, blue-green deployments).\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications with progressive delivery strategies using Argo Rollouts.\n\nDeploy a Kubernetes cluster with Argo Rollouts for progressive delivery."
+},
+"99": {
+"number": "99",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Flux for GitOps continuous delivery.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment and management of Kubernetes applications using GitOps principles with Flux.\n\nDeploy a Kubernetes cluster with Flux for GitOps continuous delivery."
+},
+"100": {
+"number": "100",
+"question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster with Kuma for service mesh.\n\n# Outcome\nAfter completing this lab, you should be able to implement service mesh capabilities such as traffic routing, security, and observability in Kubernetes clusters using Kuma.\n\nDeploy a Kubernetes cluster with Kuma for service mesh."
+}
+}

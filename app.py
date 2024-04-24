@@ -27,6 +27,18 @@ with open('shellscript.json', 'r') as file:
     
 with open('python.json', 'r') as file:
     python = json.load(file)
+    
+with open('docker.json', 'r') as file:
+    docker = json.load(file)
+    
+with open('kubernetes.json', 'r') as file:
+    kubernetes = json.load(file)
+    
+with open('aws.json', 'r') as file:
+    aws = json.load(file)
+    
+with open('terraform.json', 'r') as file:
+    terraform = json.load(file)
 
 @app.route('/')
 def index():
@@ -66,12 +78,32 @@ def course_search():
     #                     course = value
     #                     html_content = markdown.markdown(course)
         elif selected_course == "Python":
-            print("This is Python")
             lab_number = request.form.get('lab-number')
-            print(lab_number)
             question = python.get(lab_number, "Lab not found").get('question', "Lab not found")
-            print(question)
             html_content = markdown.markdown(question)
+        
+        elif selected_course == "Docker":
+            lab_number = request.form.get('lab-number')
+            question = docker.get(lab_number, "Lab not found").get('question', "Lab not found")
+            html_content = markdown.markdown(question)
+        
+        elif selected_course == "Kubernetes":
+            lab_number = request.form.get('lab-number')
+            question = kubernetes.get(lab_number, "Lab not found").get('question', "Lab not found")
+            html_content = markdown.markdown(question)
+        
+        elif selected_course == "AWS":
+            lab_number = request.form.get('lab-number')
+            question = aws.get(lab_number, "Lab not found").get('question', "Lab not found")
+            html_content = markdown.markdown(question)
+        
+        elif selected_course == "Terraform":
+            lab_number = request.form.get('lab-number')
+            question = terraform.get(lab_number, "Lab not found").get('question', "Lab not found")
+            html_content = markdown.markdown(question)
+        
+        else:
+            result = "Course not found"
       
           
     return render_template('course_search.html', choices=choices, selected_course=selected_course, html_content=html_content)

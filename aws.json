@@ -1,0 +1,406 @@
+{
+"00": {
+"number": "00",
+"question": "# Lab Objective\nThe objective of this lab is to set up an Amazon EC2 instance.\n\n# Outcome\nAfter completing this lab, you should be able to create and configure an Amazon EC2 instance on AWS.\n\nSet up an Amazon EC2 instance."
+},
+"01": {
+"number": "01",
+"question": "# Lab Objective\nThe objective of this lab is to create an Amazon S3 bucket.\n\n# Outcome\nAfter completing this lab, you should be able to create and configure an Amazon S3 bucket for storing objects on AWS.\n\nCreate an Amazon S3 bucket."
+},
+"02": {
+"number": "02",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon RDS (Relational Database Service).\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure an Amazon RDS instance for database management on AWS.\n\nSet up Amazon RDS."
+},
+"03": {
+"number": "03",
+"question": "# Lab Objective\nThe objective of this lab is to create an Amazon VPC (Virtual Private Cloud).\n\n# Outcome\nAfter completing this lab, you should be able to set up and configure an Amazon VPC to isolate and manage your AWS resources.\n\nCreate an Amazon VPC."
+},
+"04": {
+"number": "04",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lambda function.\n\n# Outcome\nAfter completing this lab, you should be able to create and deploy a serverless function using AWS Lambda.\n\nDeploy an AWS Lambda function."
+},
+"05": {
+"number": "05",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon IAM (Identity and Access Management).\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage user permissions and access policies using Amazon IAM.\n\nConfigure Amazon IAM."
+},
+"06": {
+"number": "06",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon CloudFront for content delivery.\n\n# Outcome\nAfter completing this lab, you should be able to configure and deploy Amazon CloudFront to deliver content faster and securely.\n\nSet up Amazon CloudFront for content delivery."
+},
+"07": {
+"number": "07",
+"question": "# Lab Objective\nThe objective of this lab is to create an Amazon ECS (Elastic Container Service) cluster.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage a containerized application environment using Amazon ECS on AWS.\n\nCreate an Amazon ECS cluster."
+},
+"08": {
+"number": "08",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon SQS (Simple Queue Service).\n\n# Outcome\nAfter completing this lab, you should be able to create and manage message queues using Amazon SQS for reliable message delivery.\n\nConfigure Amazon SQS."
+},
+"09": {
+"number": "09",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon SNS (Simple Notification Service).\n\n# Outcome\nAfter completing this lab, you should be able to create and manage topic-based messaging using Amazon SNS for event-driven architecture.\n\nSet up Amazon SNS."
+},
+"10": {
+"number": "10",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon API Gateway.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage RESTful APIs using Amazon API Gateway for serverless application development.\n\nDeploy an Amazon API Gateway."
+},
+"11": {
+"number": "11",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon CloudWatch for monitoring and logging.\n\n# Outcome\nAfter completing this lab, you should be able to set up monitoring and logging for AWS resources using Amazon CloudWatch.\n\nConfigure Amazon CloudWatch."
+},
+"12": {
+"number": "12",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Redshift for data warehousing.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure Amazon Redshift clusters for analytics and data warehousing.\n\nSet up Amazon Redshift."
+},
+"13": {
+"number": "13",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon SES (Simple Email Service).\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage email delivery using Amazon SES for transactional and marketing emails.\n\nConfigure Amazon SES."
+},
+"14": {
+"number": "14",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon EKS (Elastic Kubernetes Service) cluster.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage a Kubernetes environment using Amazon EKS for container orchestration.\n\nDeploy an Amazon EKS cluster."
+},
+"15": {
+"number": "15",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon S3 Glacier for long-term archival.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage data archival using Amazon S3 Glacier for cost-effective storage.\n\nConfigure Amazon S3 Glacier."
+},
+"16": {
+"number": "16",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Elasticache for caching.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and configure Amazon ElastiCache for caching data to improve application performance.\n\nSet up Amazon ElastiCache for caching."
+},
+"17": {
+"number": "17",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon Aurora database cluster.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure an Amazon Aurora database cluster for scalable and high-performance database applications.\n\nDeploy an Amazon Aurora database cluster."
+},
+"18": {
+"number": "18",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Kinesis for real-time data streaming.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage Amazon Kinesis for ingesting and processing real-time data streams.\n\nConfigure Amazon Kinesis."
+},
+"19": {
+"number": "19",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon EMR (Elastic MapReduce) cluster.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage big data processing clusters using Amazon EMR for analytics and machine learning.\n\nDeploy an Amazon EMR cluster."
+},
+"20": {
+"number": "20",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Route 53 for DNS management.\n\n# Outcome\nAfter completing this lab, you should be able to configure and manage domain name services using Amazon Route 53 for scalable and reliable DNS management.\n\nSet up Amazon Route 53 for DNS management."
+},
+"21": {
+"number": "21",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS CloudFormation for infrastructure as code.\n\n# Outcome\nAfter completing this lab, you should be able to define and deploy infrastructure using AWS CloudFormation for automated resource management.\n\nConfigure AWS CloudFormation for infrastructure as code."
+},
+"22": {
+"number": "22",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon ECS Fargate for serverless container management.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage containerized applications without managing servers using Amazon ECS Fargate.\n\nSet up Amazon ECS Fargate for serverless container management."
+},
+"23": {
+"number": "23",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon RDS Aurora Serverless for scalable and cost-effective databases.\n\n# Outcome\nAfter completing this lab, you should be able to provision and manage serverless database instances using Amazon RDS Aurora Serverless.\n\nConfigure Amazon RDS Aurora Serverless."
+},
+"24": {
+"number": "24",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon EFS (Elastic File System) for scalable file storage.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage file systems using Amazon EFS for scalable and elastic file storage.\n\nSet up Amazon EFS for scalable file storage."
+},
+"25": {
+"number": "25",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon MSK (Managed Streaming for Apache Kafka) cluster.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage Apache Kafka clusters using Amazon MSK for scalable and reliable data streaming.\n\nDeploy an Amazon MSK cluster."
+},
+"26": {
+"number": "26",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Neptune for graph database management.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure Amazon Neptune clusters for building graph databases.\n\nSet up Amazon Neptune for graph database management."
+},
+"27": {
+"number": "27",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Athena for serverless query processing.\n\n# Outcome\nAfter completing this lab, you should be able to set up and run ad-hoc SQL queries using Amazon Athena for analyzing data in Amazon S3.\n\nConfigure Amazon Athena for serverless query processing."
+},
+"28": {
+"number": "28",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon WorkSpaces for cloud-based desktops.\n\n# Outcome\nAfter completing this lab, you should be able to provision and manage virtual desktops using Amazon WorkSpaces for remote access and collaboration.\n\nSet up Amazon WorkSpaces for cloud-based desktops."
+},
+"29": {
+"number": "29",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon ECR (Elastic Container Registry) repository.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage private container repositories using Amazon ECR for secure container image storage and distribution.\n\nDeploy an Amazon ECR repository."
+},
+"30": {
+"number": "30",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Inspector for automated security assessment.\n\n# Outcome\nAfter completing this lab, you should be able to set up and run security assessments using Amazon Inspector for identifying security vulnerabilities.\n\nConfigure Amazon Inspector for automated security assessment."
+},
+"31": {
+"number": "31",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon API Gateway for WebSocket APIs.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage WebSocket APIs using Amazon API Gateway for real-time communication.\n\nSet up Amazon API Gateway for WebSocket APIs."
+},
+"32": {
+"number": "32",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Cognito for user authentication and authorization.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage user pools and identity pools using Amazon Cognito for user authentication and authorization.\n\nConfigure Amazon Cognito for user authentication and authorization."
+},
+"33": {
+"number": "33",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon ECS service with AWS Fargate.\n\n# Outcome\nAfter completing this lab, you should be able to deploy containerized applications without managing servers using Amazon ECS with AWS Fargate.\n\nDeploy an Amazon ECS service with AWS Fargate."
+},
+"34": {
+"number": "34",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon EKS (Elastic Kubernetes Service) with AWS Fargate.\n\n# Outcome\nAfter completing this lab, you should be able to run Kubernetes pods without managing nodes using Amazon EKS with AWS Fargate.\n\nConfigure Amazon EKS with AWS Fargate."
+},
+"35": {
+"number": "35",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Glue for data catalog and ETL (Extract, Transform, Load) jobs.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage data catalogs and ETL jobs using AWS Glue for data integration and processing.\n\nSet up AWS Glue for data catalog and ETL jobs."
+},
+"36": {
+"number": "36",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon FSx for Windows File Server.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage Windows file systems in the cloud using Amazon FSx for Windows File Server.\n\nConfigure Amazon FSx for Windows File Server."
+},
+"37": {
+"number": "37",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon MQ for managed message brokers.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage message brokers using Amazon MQ for enterprise messaging.\n\nSet up Amazon MQ for managed message brokers."
+},
+"38": {
+"number": "38",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon DynamoDB for NoSQL database management.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage NoSQL databases using Amazon DynamoDB for flexible and scalable data storage.\n\nConfigure Amazon DynamoDB for NoSQL database management."
+},
+"39": {
+"number": "39",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon ECS service with EC2 instances.\n\n# Outcome\nAfter completing this lab, you should be able to deploy containerized applications using Amazon ECS with EC2 instances for flexible and scalable compute capacity.\n\nDeploy an Amazon ECS service with EC2 instances."
+},
+"40": {
+"number": "40",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS WAF (Web Application Firewall) for application security.\n\n# Outcome\nAfter completing this lab, you should be able to configure and manage web application firewalls using AWS WAF for protecting web applications from common threats.\n\nSet up AWS WAF for application security."
+},
+"41": {
+"number": "41",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon EKS (Elastic Kubernetes Service) with Amazon EBS (Elastic Block Store) storage.\n\n# Outcome\nAfter completing this lab, you should be able to attach and mount persistent block storage to Kubernetes pods using Amazon EKS with Amazon EBS storage.\n\nConfigure Amazon EKS with Amazon EBS storage."
+},
+"42": {
+"number": "42",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Neptune for graph database management.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure Amazon Neptune clusters for building graph databases.\n\nSet up Amazon Neptune for graph database management."
+},
+"43": {
+"number": "43",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon RDS (Relational Database Service) with Multi-AZ deployment.\n\n# Outcome\nAfter completing this lab, you should be able to deploy highly available database instances using Amazon RDS with Multi-AZ deployment.\n\nConfigure Amazon RDS with Multi-AZ deployment."
+},
+"44": {
+"number": "44",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon SageMaker for machine learning model training.\n\n# Outcome\nAfter completing this lab, you should be able to create and train machine learning models using Amazon SageMaker for scalable and cost-effective model training.\n\nSet up Amazon SageMaker for machine learning model training."
+},
+"45": {
+"number": "45",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Cognito for user authentication with social identity providers.\n\n# Outcome\nAfter completing this lab, you should be able to set up user authentication using social identity providers such as Google and Facebook with Amazon Cognito.\n\nConfigure Amazon Cognito for user authentication with social identity providers."
+},
+"46": {
+"number": "46",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS CodePipeline for continuous integration and delivery.\n\n# Outcome\nAfter completing this lab, you should be able to create and automate software release pipelines using AWS CodePipeline for faster and reliable application delivery.\n\nSet up AWS CodePipeline for continuous integration and delivery."
+},
+"47": {
+"number": "47",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Key Management Service (KMS) for data encryption.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage encryption keys using AWS Key Management Service (KMS) for securing sensitive data.\n\nConfigure AWS Key Management Service (KMS) for data encryption."
+},
+"48": {
+"number": "48",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Transfer Family for secure file transfer.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure AWS Transfer Family services for secure file transfer protocols such as SFTP, FTPS, and FTP.\n\nSet up AWS Transfer Family for secure file transfer."
+},
+"49": {
+"number": "49",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon CloudFront for content delivery with AWS WAF.\n\n# Outcome\nAfter completing this lab, you should be able to set up web application firewalls (WAF) with Amazon CloudFront for protecting web applications from common threats.\n\nConfigure Amazon CloudFront for content delivery with AWS WAF."
+},
+"50": {
+"number": "50",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Polly for text-to-speech synthesis.\n\n# Outcome\nAfter completing this lab, you should be able to integrate Amazon Polly into applications for converting text into lifelike speech.\n\nConfigure Amazon Polly for text-to-speech synthesis."
+},
+"51": {
+"number": "51",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS DataSync for data transfer and synchronization.\n\n# Outcome\nAfter completing this lab, you should be able to transfer and synchronize data between on-premises storage and AWS using AWS DataSync.\n\nSet up AWS DataSync for data transfer and synchronization."
+},
+"52": {
+"number": "52",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon EKS (Elastic Kubernetes Service) with AWS IAM (Identity and Access Management) roles for service accounts.\n\n# Outcome\nAfter completing this lab, you should be able to assign IAM roles to Kubernetes service accounts for fine-grained access control.\n\nConfigure Amazon EKS with AWS IAM roles for service accounts."
+},
+"53": {
+"number": "53",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Elemental MediaConvert for video transcoding.\n\n# Outcome\nAfter completing this lab, you should be able to configure and run video transcoding jobs using AWS Elemental MediaConvert for converting media files into various formats.\n\nSet up AWS Elemental MediaConvert for video transcoding."
+},
+"54": {
+"number": "54",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon Managed Blockchain network.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage blockchain networks using Amazon Managed Blockchain for building decentralized applications.\n\nDeploy an Amazon Managed Blockchain network."
+},
+"55": {
+"number": "55",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Budgets for cost management.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage budgets using AWS Budgets for tracking and controlling AWS spending.\n\nConfigure AWS Budgets for cost management."
+},
+"56": {
+"number": "56",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Lex for building conversational interfaces.\n\n# Outcome\nAfter completing this lab, you should be able to create and deploy conversational chatbots using Amazon Lex for natural language understanding.\n\nSet up Amazon Lex for building conversational interfaces."
+},
+"57": {
+"number": "57",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS IoT Core for Internet of Things (IoT) device management.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage IoT devices and data streams using AWS IoT Core for IoT applications.\n\nConfigure AWS IoT Core for Internet of Things (IoT) device management."
+},
+"58": {
+"number": "58",
+"question": "# Lab Objective\nThe objective of this lab is to deploy an Amazon Elasticsearch Service cluster.\n\n# Outcome\nAfter completing this lab, you should be able to provision and configure Amazon Elasticsearch Service clusters for search and analytics.\n\nDeploy an Amazon Elasticsearch Service cluster."
+},
+"59": {
+"number": "59",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Comprehend for natural language processing.\n\n# Outcome\nAfter completing this lab, you should be able to analyze text for insights and relationships using Amazon Comprehend for natural language processing.\n\nSet up Amazon Comprehend for natural language processing."
+},
+"60": {
+"number": "60",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Connect for cloud-based contact center.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage contact center solutions using Amazon Connect for customer engagement.\n\nConfigure Amazon Connect for cloud-based contact center."
+},
+"61": {
+"number": "61",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Step Functions for serverless workflows.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage state machines using AWS Step Functions for orchestrating serverless workflows.\n\nSet up AWS Step Functions for serverless workflows."
+},
+"62": {
+"number": "62",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Rekognition for image and video analysis.\n\n# Outcome\nAfter completing this lab, you should be able to analyze images and videos for objects, scenes, and activities using Amazon Rekognition for computer vision.\n\nConfigure Amazon Rekognition for image and video analysis."
+},
+"63": {
+"number": "63",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Managed Streaming for Apache Kafka (Amazon MSK) for data streaming.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage Apache Kafka clusters using Amazon MSK for scalable and durable data streaming.\n\nSet up Amazon Managed Streaming for Apache Kafka (Amazon MSK) for data streaming."
+},
+"64": {
+"number": "64",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS IoT Greengrass for edge computing.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage edge computing devices and applications using AWS IoT Greengrass.\n\nConfigure AWS IoT Greengrass for edge computing."
+},
+"65": {
+"number": "65",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS CodeBuild for continuous integration.\n\n# Outcome\nAfter completing this lab, you should be able to configure and automate build processes using AWS CodeBuild for continuous integration.\n\nSet up AWS CodeBuild for continuous integration."
+},
+"66": {
+"number": "66",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Lake Formation for data lake management.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage data lakes using AWS Lake Formation for organizing and securing large-scale data.\n\nConfigure AWS Lake Formation for data lake management."
+},
+"67": {
+"number": "67",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Shield for DDoS protection.\n\n# Outcome\nAfter completing this lab, you should be able to configure DDoS protection for web applications using AWS Shield for safeguarding against cyber threats.\n\nSet up AWS Shield for DDoS protection."
+},
+"68": {
+"number": "68",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon ECS (Elastic Container Service) with AWS Fargate Spot.\n\n# Outcome\nAfter completing this lab, you should be able to optimize costs for containerized applications using Amazon ECS with AWS Fargate Spot for running interruptible tasks.\n\nConfigure Amazon ECS with AWS Fargate Spot."
+},
+"69": {
+"number": "69",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Direct Connect for dedicated network connectivity.\n\n# Outcome\nAfter completing this lab, you should be able to establish and manage dedicated network connections between your data center and AWS using AWS Direct Connect.\n\nSet up AWS Direct Connect for dedicated network connectivity."
+},
+"70": {
+"number": "70",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon API Gateway for mutual TLS authentication.\n\n# Outcome\nAfter completing this lab, you should be able to configure mutual TLS authentication for securing RESTful APIs using Amazon API Gateway.\n\nConfigure Amazon API Gateway for mutual TLS authentication."
+},
+"71": {
+"number": "71",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Managed Workflows for Apache Airflow (MWAA) for orchestration and automation.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and manage Apache Airflow environments using Amazon MWAA for workflow orchestration.\n\nSet up Amazon Managed Workflows for Apache Airflow (MWAA) for orchestration and automation."
+},
+"72": {
+"number": "72",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Transit Gateway for centralized network management.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage network connections across multiple VPCs using AWS Transit Gateway for centralized network management.\n\nConfigure AWS Transit Gateway for centralized network management."
+},
+"73": {
+"number": "73",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Macie for data discovery and protection.\n\n# Outcome\nAfter completing this lab, you should be able to discover, classify, and protect sensitive data using Amazon Macie for data security and compliance.\n\nSet up Amazon Macie for data discovery and protection."
+},
+"74": {
+"number": "74",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Lex for voice-based chatbots.\n\n# Outcome\nAfter completing this lab, you should be able to create and deploy voice-enabled chatbots using Amazon Lex for natural language understanding.\n\nConfigure Amazon Lex for voice-based chatbots."
+},
+"75": {
+"number": "75",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Kinesis Data Firehose for data delivery.\n\n# Outcome\nAfter completing this lab, you should be able to capture, transform, and load streaming data into data lakes and analytics services using Amazon Kinesis Data Firehose.\n\nSet up Amazon Kinesis Data Firehose for data delivery."
+},
+"76": {
+"number": "76",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Fargate for GPU-based container workloads.\n\n# Outcome\nAfter completing this lab, you should be able to deploy GPU-based container workloads without managing servers using AWS Fargate for GPU.\n\nConfigure AWS Fargate for GPU-based container workloads."
+},
+"77": {
+"number": "77",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Lambda with Amazon S3 for serverless file processing.\n\n# Outcome\nAfter completing this lab, you should be able to process files uploaded to Amazon S3 using AWS Lambda for serverless file processing.\n\nSet up AWS Lambda with Amazon S3 for serverless file processing."
+},
+"78": {
+"number": "78",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon GuardDuty for threat detection and monitoring.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage threat detection services using Amazon GuardDuty for continuous security monitoring.\n\nConfigure Amazon GuardDuty for threat detection and monitoring."
+},
+"79": {
+"number": "79",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Textract for document text extraction.\n\n# Outcome\nAfter completing this lab, you should be able to extract text and data from documents using Amazon Textract for document processing.\n\nSet up Amazon Textract for document text extraction."
+},
+"80": {
+"number": "80",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Elasticsearch Service with Kibana for log analytics.\n\n# Outcome\nAfter completing this lab, you should be able to analyze and visualize log data using Amazon Elasticsearch Service with Kibana for log analytics.\n\nConfigure Amazon Elasticsearch Service with Kibana for log analytics."
+},
+"81": {
+"number": "81",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Snowball for offline data transfer.\n\n# Outcome\nAfter completing this lab, you should be able to transfer large amounts of data offline using AWS Snowball for secure data migration.\n\nSet up AWS Snowball for offline data transfer."
+},
+"82": {
+"number": "82",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon CloudSearch for full-text search.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage full-text search solutions using Amazon CloudSearch for indexing and querying structured data.\n\nConfigure Amazon CloudSearch for full-text search."
+},
+"83": {
+"number": "83",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Elemental MediaPackage for video origination and packaging.\n\n# Outcome\nAfter completing this lab, you should be able to package and deliver live and on-demand video content using AWS Elemental MediaPackage.\n\nSet up AWS Elemental MediaPackage for video origination and packaging."
+},
+"84": {
+"number": "84",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Step Functions for workflow orchestration with AWS Glue.\n\n# Outcome\nAfter completing this lab, you should be able to orchestrate ETL (Extract, Transform, Load) workflows using AWS Step Functions with AWS Glue for data integration.\n\nConfigure AWS Step Functions for workflow orchestration with AWS Glue."
+},
+"85": {
+"number": "85",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon FSx for Lustre for high-performance file storage.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and configure Amazon FSx for Lustre for high-performance computing and analytics workloads.\n\nSet up Amazon FSx for Lustre for high-performance file storage."
+},
+"86": {
+"number": "86",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon WorkMail for email and calendaring.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage email and calendaring solutions using Amazon WorkMail for business communication.\n\nConfigure Amazon WorkMail for email and calendaring."
+},
+"87": {
+"number": "87",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Glue DataBrew for data preparation and cleaning.\n\n# Outcome\nAfter completing this lab, you should be able to automate data preparation tasks using AWS Glue DataBrew for cleaning and transforming data.\n\nSet up AWS Glue DataBrew for data preparation and cleaning."
+},
+"88": {
+"number": "88",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Elemental MediaConnect for secure live video transport.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage secure and reliable live video transport using AWS Elemental MediaConnect.\n\nConfigure AWS Elemental MediaConnect for secure live video transport."
+},
+"89": {
+"number": "89",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon EventBridge for event-driven architecture.\n\n# Outcome\nAfter completing this lab, you should be able to create event-driven workflows and integrations using Amazon EventBridge for decoupled architectures.\n\nSet up Amazon EventBridge for event-driven architecture."
+},
+"90": {
+"number": "90",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Connect Voice ID for voice authentication.\n\n# Outcome\nAfter completing this lab, you should be able to add voice authentication to Amazon Connect contact center solutions using Amazon Connect Voice ID.\n\nConfigure Amazon Connect Voice ID for voice authentication."
+},
+"91": {
+"number": "91",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Cloud Directory for hierarchical data storage.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage directory structures using Amazon Cloud Directory for organizing and accessing hierarchical data.\n\nSet up Amazon Cloud Directory for hierarchical data storage."
+},
+"92": {
+"number": "92",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Lambda Destinations for asynchronous function invocation.\n\n# Outcome\nAfter completing this lab, you should be able to set up destinations for capturing asynchronous function invocation results using AWS Lambda Destinations.\n\nConfigure AWS Lambda Destinations for asynchronous function invocation."
+},
+"93": {
+"number": "93",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS CodeGuru Profiler for application performance profiling.\n\n# Outcome\nAfter completing this lab, you should be able to analyze application performance and identify performance bottlenecks using AWS CodeGuru Profiler.\n\nSet up AWS CodeGuru Profiler for application performance profiling."
+},
+"94": {
+"number": "94",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Connect Tasks for task management.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage tasks in Amazon Connect contact center solutions using Amazon Connect Tasks.\n\nConfigure Amazon Connect Tasks for task management."
+},
+"95": {
+"number": "95",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Lambda Layers for code reuse.\n\n# Outcome\nAfter completing this lab, you should be able to create and manage Lambda layers for sharing code and dependencies across multiple Lambda functions.\n\nSet up AWS Lambda Layers for code reuse."
+},
+"96": {
+"number": "96",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon S3 Object Lock for data immutability.\n\n# Outcome\nAfter completing this lab, you should be able to configure and manage S3 Object Lock to prevent accidental deletion or modification of objects in Amazon S3.\n\nConfigure Amazon S3 Object Lock for data immutability."
+},
+"97": {
+"number": "97",
+"question": "# Lab Objective\nThe objective of this lab is to set up AWS Fargate for containerized batch processing.\n\n# Outcome\nAfter completing this lab, you should be able to run batch processing jobs without managing servers using AWS Fargate for containers.\n\nSet up AWS Fargate for containerized batch processing."
+},
+"98": {
+"number": "98",
+"question": "# Lab Objective\nThe objective of this lab is to configure Amazon Rekognition Custom Labels for custom object detection.\n\n# Outcome\nAfter completing this lab, you should be able to train custom models for object detection using Amazon Rekognition Custom Labels.\n\nConfigure Amazon Rekognition Custom Labels for custom object detection."
+},
+"99": {
+"number": "99",
+"question": "# Lab Objective\nThe objective of this lab is to set up Amazon Lex for automated customer support chatbots.\n\n# Outcome\nAfter completing this lab, you should be able to create and deploy chatbots for automated customer support using Amazon Lex.\n\nSet up Amazon Lex for automated customer support chatbots."
+},
+"100": {
+"number": "100",
+"question": "# Lab Objective\nThe objective of this lab is to configure AWS Elemental MediaLive for live video streaming.\n\n# Outcome\nAfter completing this lab, you should be able to set up and manage live video streaming channels using AWS Elemental MediaLive.\n\nConfigure AWS Elemental MediaLive for live video streaming."
+}
+}

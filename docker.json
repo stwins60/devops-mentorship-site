@@ -1,0 +1,406 @@
+{
+    "00": {
+        "number": "00",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a simple web application.\n\n# Outcome\nAfter completing this project, you should be able to create and deploy Docker containers for web applications.\n\nCreate a Docker container for a simple web application."
+    },
+    "01": {
+        "number": "01",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Python Flask application.\n\n# Outcome\nAfter completing this project, you should be able to containerize Python Flask applications using Docker.\n\nCreate a Docker container for a Python Flask application."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Project Objective\nThe objective of this project is to create a Dockerfile for a Node.js application.\n\n# Outcome\nAfter completing this project, you should be able to create Dockerfiles for Node.js applications.\n\nCreate a Dockerfile for a Node.js application."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a React web application.\n\n# Outcome\nAfter completing this project, you should be able to containerize React web applications using Docker.\n\nCreate a Docker container for a React web application."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker Compose file for a multi-container application.\n\n# Outcome\nAfter completing this project, you should be able to manage multi-container applications using Docker Compose.\n\nCreate a Docker Compose file for a multi-container application."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications using Docker.\n\nDeploy a Django application using Docker."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a PostgreSQL database.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for databases.\n\nCreate a Docker container for a PostgreSQL database."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker image for a Redis server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker images for server applications.\n\nCreate a Docker image for a Redis server."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Flask application with Nginx using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy Flask applications with Nginx using Docker.\n\nDeploy a Flask application with Nginx using Docker."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Java Spring Boot application.\n\n# Outcome\nAfter completing this project, you should be able to containerize Java Spring Boot applications using Docker.\n\nCreate a Docker container for a Java Spring Boot application."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with MongoDB using Docker Compose.\n\nDeploy a Node.js application with MongoDB using Docker Compose."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a WordPress website.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CMS applications like WordPress.\n\nCreate a Docker container for a WordPress website."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Laravel application using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy Laravel applications using Docker.\n\nDeploy a Laravel application using Docker."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for an Elasticsearch instance.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for search engines like Elasticsearch.\n\nCreate a Docker container for an Elasticsearch instance."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Flask application with MySQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Flask applications with MySQL using Docker Compose.\n\nDeploy a Flask application with MySQL using Docker Compose."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for an Apache web server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for web servers like Apache.\n\nCreate a Docker container for an Apache web server."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Vue.js application using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy Vue.js applications using Docker.\n\nDeploy a Vue.js application using Docker."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Django REST API.\n\n# Outcome\nAfter completing this project, you should be able to containerize Django REST APIs using Docker.\n\nCreate a Docker container for a Django REST API."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Flask application with PostgreSQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Flask applications with PostgreSQL using Docker Compose.\n\nDeploy a Flask application with PostgreSQL using Docker Compose."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD tools like Jenkins.\n\nCreate a Docker container for a Jenkins server."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Project Objective\nThe objective of this project is to deploy a React application with Nginx using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy React applications with Nginx using Docker.\n\nDeploy a React application with Nginx using Docker."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Ghost blog.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for blogging platforms like Ghost.\n\nCreate a Docker container for a Ghost blog."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python FastAPI application using Docker.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python FastAPI applications using Docker.\n\nDeploy a Python FastAPI application using Docker."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Grafana dashboard.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for monitoring tools like Grafana.\n\nCreate a Docker container for a Grafana dashboard."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with PostgreSQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with PostgreSQL using Docker Compose.\n\nDeploy a Django application with PostgreSQL using Docker Compose."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins pipeline.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for pipeline automation using Jenkins.\n\nCreate a Docker container for a Jenkins pipeline."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Flask application with Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Flask applications with Redis using Docker Compose.\n\nDeploy a Flask application with Redis using Docker Compose."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Prometheus server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for monitoring tools like Prometheus.\n\nCreate a Docker container for a Prometheus server."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with Redis using Docker Compose.\n\nDeploy a Node.js application with Redis using Docker Compose."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a MongoDB database.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for databases like MongoDB.\n\nCreate a Docker container for a MongoDB database."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with Redis using Docker Compose.\n\nDeploy a Django application with Redis using Docker Compose."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nginx proxy.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for proxy servers like Nginx.\n\nCreate a Docker container for a Nginx proxy."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Flask application with MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Flask applications with MongoDB using Docker Compose.\n\nDeploy a Flask application with MongoDB using Docker Compose."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a SonarQube instance.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for code quality tools like SonarQube.\n\nCreate a Docker container for a SonarQube instance."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Project Objective\nThe objective of this project is to deploy a React application with MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy React applications with MongoDB using Docker Compose.\n\nDeploy a React application with MongoDB using Docker Compose."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a RabbitMQ server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for message brokers like RabbitMQ.\n\nCreate a Docker container for a RabbitMQ server."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL using Docker Compose."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins agent.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Jenkins agents.\n\nCreate a Docker container for a Jenkins agent."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with MySQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with MySQL using Docker Compose.\n\nDeploy a Django application with MySQL using Docker Compose."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab instance.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for version control systems like GitLab.\n\nCreate a Docker container for a GitLab instance."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Project Objective\nThe objective of this project is to deploy a React application with Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy React applications with Redis using Docker Compose.\n\nDeploy a React application with Redis using Docker Compose."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jupyter Notebook.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for data science tools like Jupyter Notebook.\n\nCreate a Docker container for a Jupyter Notebook."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with Redis using Docker Compose.\n\nDeploy a Python Flask application with Redis using Docker Compose."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a MySQL database.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for databases like MySQL.\n\nCreate a Docker container for a MySQL database."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Vue.js application with MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Vue.js applications with MongoDB using Docker Compose.\n\nDeploy a Vue.js application with MongoDB using Docker Compose."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Grafana dashboard with Prometheus.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for monitoring dashboards like Grafana with Prometheus.\n\nCreate a Docker container for a Grafana dashboard with Prometheus."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with Redis and MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with Redis and MongoDB using Docker Compose.\n\nDeploy a Node.js application with Redis and MongoDB using Docker Compose."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for an Apache web server with PHP.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for web servers like Apache with PHP support.\n\nCreate a Docker container for an Apache web server with PHP."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with MongoDB using Docker Compose.\n\nDeploy a Python Flask application with MongoDB using Docker Compose."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins master.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Jenkins masters.\n\nCreate a Docker container for a Jenkins master."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with Redis and PostgreSQL using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with Redis and PostgreSQL using Docker Compose.\n\nDeploy a Django application with Redis and PostgreSQL using Docker Compose."
+    },
+    "51": {
+        "number": "51",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus repository manager.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for artifact repositories like Nexus.\n\nCreate a Docker container for a Nexus repository manager."
+    },
+    "52": {
+        "number": "52",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with MongoDB and Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with MongoDB and Redis using Docker Compose.\n\nDeploy a Node.js application with MongoDB and Redis using Docker Compose."
+    },
+    "53": {
+        "number": "53",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a WordPress website with MySQL.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CMS applications like WordPress with MySQL.\n\nCreate a Docker container for a WordPress website with MySQL."
+    },
+    "54": {
+        "number": "54",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with PostgreSQL and Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with PostgreSQL and Redis using Docker Compose.\n\nDeploy a Django application with PostgreSQL and Redis using Docker Compose."
+    },
+    "55": {
+        "number": "55",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab Runner.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab Runner.\n\nCreate a Docker container for a GitLab Runner."
+    },
+    "56": {
+        "number": "56",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with MongoDB and Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with MongoDB and Redis using Docker Compose.\n\nDeploy a Python Flask application with MongoDB and Redis using Docker Compose."
+    },
+    "57": {
+        "number": "57",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins slave.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Jenkins slaves.\n\nCreate a Docker container for a Jenkins slave."
+    },
+    "58": {
+        "number": "58",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL and Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL and Redis using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL and Redis using Docker Compose."
+    },
+    "59": {
+        "number": "59",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD pipeline.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD pipelines using GitLab.\n\nCreate a Docker container for a GitLab CI/CD pipeline."
+    },
+    "60": {
+        "number": "60",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with PostgreSQL and Redis using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with PostgreSQL and Redis using Docker Compose.\n\nDeploy a Django application with PostgreSQL and Redis using Docker Compose."
+    },
+    "61": {
+        "number": "61",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus IQ Server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for application security tools like Nexus IQ Server.\n\nCreate a Docker container for a Nexus IQ Server."
+    },
+    "62": {
+        "number": "62",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, and MongoDB using Docker Compose."
+    },
+    "63": {
+        "number": "63",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins Controller.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Jenkins Controllers.\n\nCreate a Docker container for a Jenkins Controller."
+    },
+    "64": {
+        "number": "64",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, and MongoDB using Docker Compose."
+    },
+    "65": {
+        "number": "65",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Jenkins Agent with Docker.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Jenkins Agents with Docker.\n\nCreate a Docker container for a Jenkins Agent with Docker."
+    },
+    "66": {
+        "number": "66",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Django application with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Django applications with PostgreSQL, Redis, and MongoDB using Docker Compose.\n\nDeploy a Django application with PostgreSQL, Redis, and MongoDB using Docker Compose."
+    },
+    "67": {
+        "number": "67",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Firewall.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for security tools like Nexus Firewall.\n\nCreate a Docker container for a Nexus Firewall."
+    },
+    "68": {
+        "number": "68",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose."
+    },
+    "69": {
+        "number": "69",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab Registry.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for Git repositories like GitLab Registry.\n\nCreate a Docker container for a GitLab Registry."
+    },
+    "70": {
+        "number": "70",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, and Nginx using Docker Compose."
+    },
+    "71": {
+        "number": "71",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Sonatype Nexus.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for repository managers like Sonatype Nexus.\n\nCreate a Docker container for a Sonatype Nexus."
+    },
+    "72": {
+        "number": "72",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose."
+    },
+    "73": {
+        "number": "73",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner.\n\nCreate a Docker container for a GitLab CI/CD Runner."
+    },
+    "74": {
+        "number": "74",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, and Celery using Docker Compose."
+    },
+    "75": {
+        "number": "75",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab Runner with Docker.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for GitLab Runners with Docker.\n\nCreate a Docker container for a GitLab Runner with Docker."
+    },
+    "76": {
+        "number": "76",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose."
+    },
+    "77": {
+        "number": "77",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Lifecycle.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for security tools like Nexus Lifecycle.\n\nCreate a Docker container for a Nexus Lifecycle."
+    },
+    "78": {
+        "number": "78",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, and RabbitMQ using Docker Compose."
+    },
+    "79": {
+        "number": "79",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner with Docker.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner with Docker.\n\nCreate a Docker container for a GitLab CI/CD Runner with Docker."
+    },
+    "80": {
+        "number": "80",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose."
+    },
+    "81": {
+        "number": "81",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Firewall with Nexus IQ Server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for security tools like Nexus Firewall with Nexus IQ Server.\n\nCreate a Docker container for a Nexus Firewall with Nexus IQ Server."
+    },
+    "82": {
+        "number": "82",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, and Prometheus using Docker Compose."
+    },
+    "83": {
+        "number": "83",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab Runner with Docker and Kubernetes.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for GitLab Runners with Docker and Kubernetes.\n\nCreate a Docker container for a GitLab Runner with Docker and Kubernetes."
+    },
+    "84": {
+        "number": "84",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose."
+    },
+    "85": {
+        "number": "85",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Sonatype Nexus with Nexus IQ Server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for repository managers like Sonatype Nexus with Nexus IQ Server.\n\nCreate a Docker container for a Sonatype Nexus with Nexus IQ Server."
+    },
+    "86": {
+        "number": "86",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose."
+    },
+    "87": {
+        "number": "87",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner with Docker and Kubernetes.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner with Docker and Kubernetes.\n\nCreate a Docker container for a GitLab CI/CD Runner with Docker and Kubernetes."
+    },
+    "88": {
+        "number": "88",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose."
+    },
+    "89": {
+        "number": "89",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Repository Manager with Nexus Lifecycle.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for repository managers like Nexus Repository Manager with Nexus Lifecycle.\n\nCreate a Docker container for a Nexus Repository Manager with Nexus Lifecycle."
+    },
+    "90": {
+        "number": "90",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, and Grafana using Docker Compose."
+    },
+    "91": {
+        "number": "91",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, and Helm.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner with Docker, Kubernetes, and Helm.\n\nCreate a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, and Helm."
+    },
+    "92": {
+        "number": "92",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose."
+    },
+    "93": {
+        "number": "93",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Repository Manager with Nexus Firewall and Nexus IQ Server.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for repository managers like Nexus Repository Manager with Nexus Firewall and Nexus IQ Server.\n\nCreate a Docker container for a Nexus Repository Manager with Nexus Firewall and Nexus IQ Server."
+    },
+    "94": {
+        "number": "94",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, and ELK stack using Docker Compose."
+    },
+    "95": {
+        "number": "95",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, Helm, and Istio.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner with Docker, Kubernetes, Helm, and Istio.\n\nCreate a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, Helm, and Istio."
+    },
+    "96": {
+        "number": "96",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose."
+    },
+    "97": {
+        "number": "97",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a Nexus Repository Manager with Nexus Firewall, Nexus IQ Server, and Nexus Lifecycle.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for repository managers like Nexus Repository Manager with Nexus Firewall, Nexus IQ Server, and Nexus Lifecycle.\n\nCreate a Docker container for a Nexus Repository Manager with Nexus Firewall, Nexus IQ Server, and Nexus Lifecycle."
+    },
+    "98": {
+        "number": "98",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Node.js applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose.\n\nDeploy a Node.js application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, and Kubernetes using Docker Compose."
+    },
+    "99": {
+        "number": "99",
+        "question": "# Project Objective\nThe objective of this project is to create a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, Helm, Istio, and Prometheus.\n\n# Outcome\nAfter completing this project, you should be able to create Docker containers for CI/CD runners like GitLab CI/CD Runner with Docker, Kubernetes, Helm, Istio, and Prometheus.\n\nCreate a Docker container for a GitLab CI/CD Runner with Docker, Kubernetes, Helm, Istio, and Prometheus."
+    },
+    "100": {
+        "number": "100",
+        "question": "# Project Objective\nThe objective of this project is to deploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, Kubernetes, and Istio using Docker Compose.\n\n# Outcome\nAfter completing this project, you should be able to deploy Python Flask applications with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, Kubernetes, and Istio using Docker Compose.\n\nDeploy a Python Flask application with PostgreSQL, Redis, MongoDB, Nginx, Celery, RabbitMQ, Prometheus, Grafana, ELK stack, Kubernetes, and Istio using Docker Compose."
+    }
+}
