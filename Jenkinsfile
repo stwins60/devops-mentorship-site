@@ -90,10 +90,11 @@ pipeline {
             steps {
                 script {
                     def containerName = 'devops-mentorship-site'
+                    def previousTag = sh(script: "docker ps -a | grep ${containerName} | awk '{print $2}'", returnStdout: true).trim()
                     def isRunning = sh(script: "docker ps -a | grep ${containerName}", returnStatus: true)
                     if(isRunning == 0) {
                         sh "docker rm -f ${containerName}"
-                        slackSend channel: '#alerts', color: 'danger', message: "${containerName} with version ${IMAGE_TAG} has been removed successfully."
+                        slackSend channel: '#alerts', color: 'danger', message: "${containerName} with version ${previousTag} has been removed and replaced with version ${IMAGE_TAG}"
                         sh "docker run -d --name ${containerName} -p 5430:5000 --restart unless-stopped $IMAGE_NAME:$IMAGE_TAG"
                         slackSend channel: '#alerts', color: 'good', message: "${containerName} with version ${IMAGE_TAG} has been deployed successfully and currently running at https://devops-mentorship-lab.africantech.dev/"
                     }
