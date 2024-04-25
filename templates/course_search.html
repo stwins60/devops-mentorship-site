@@ -12,6 +12,12 @@
 </head>
 <body>
     <div class="container">
+        <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+<!--                    <li><a href="{{ url_for('course_search') }}">Courses</a></li>-->
+                </ul>
+            </nav>
         <h1>Lab Search</h1>
         <form action="{{ url_for('course_search') }}" id="course-search-form" method="post" enctype="multipart/form-data">
             <label for="search-term">Search Term:</label>
