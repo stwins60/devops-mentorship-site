@@ -5,3 +5,5 @@ Markdown
 flask-wtf
 wtforms
 waitress
+sendgrid
+python-dotenv

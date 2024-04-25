@@ -6,6 +6,7 @@ from flask_wtf import FlaskForm
 from wtforms import SelectField, IntegerField, SubmitField
 import secrets
 import json
+import mailer
 
 
 app = Flask(__name__)
@@ -123,6 +124,30 @@ def linux_course(course_number):
         else:
             return "Course not found", 404
     return render_template('course-search.html')
-    
+
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    msg = ''
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        message = request.form['message']
+        
+        print(name, email, message)
+
+        if message == '':
+            return render_template('index.html', error='Please fill in all fields', msg=msg)
+        else:
+            try:
+                if mailer.ValidateEmail(email):
+                    print('Valid email')
+                    subject = 'Message from DevOps Mentorship Site'
+                    mailer.sendMyEmail('idrisniyi94@gmail.com', 'idrisniyi94@gmail.com',
+                                        subject, name, email, message)
+                    return render_template('index.html', success='Your message has been sent', msg=msg)
+                else:
+                    return render_template('index.html', error='Please enter a valid email', msg=msg)
+            except Exception as e:
+                return render_template('index.html', error='Something went wrong', msg=msg)
 if __name__ == '__main__':
     app.run(debug=True, port=5000, host='0.0.0.0')

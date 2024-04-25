@@ -67,7 +67,7 @@ pipeline {
         stage("Docker Build") {
             steps {
                 script {
-                    sh "docker build -t $IMAGE_NAME:$IMAGE_TAG ."
+                    sh "docker build -t $IMAGE_NAME:$IMAGE_TAG --build-arg SENDGRID_API_KEY=$SENDGRID_API_KEY ."
                     echo "Image built successful"
                 }
             }
