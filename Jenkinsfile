@@ -11,6 +11,7 @@ pipeline {
         NVDAPIKEY = credentials('ed62b912-6db4-4d3a-a445-a1799077253e')
         NAMESPACE = 'mentorship'
         BRANCH_NAME = "${GIT_BRANCH.split('/')[1]}"
+        SENDGRID_API_KEY = credentials('e2bfb21a-72cb-42f4-9c3a-d47f25b580e8')
     }
 
     stages {
