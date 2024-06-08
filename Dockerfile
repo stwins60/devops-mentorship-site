@@ -51,6 +51,6 @@ COPY . .
 EXPOSE 5000
 
 # Run the application.
-CMD python server.py
+CMD python setup.py
 
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD curl --silent --fail http://localhost:5000/health || exit 1

@@ -17,6 +17,14 @@ CORS(app)
 
 app.config['SECRET_KEY'] = secrets.token_hex(16)
 
+headers = {
+    # 'Content-Type': 'text/html',
+    'charset': 'utf-8',
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+}
+
 sentry_sdk.init(
     dsn="https://a8a5fcb0b16a61bc009c9d3d2c11ea16@sentry.africantech.dev/6",
     # Set traces_sample_rate to 1.0 to capture 100%
@@ -216,3 +224,22 @@ def contact():
             except Exception as e:
                 return render_template('contact.html', error='Something went wrong', success=msg)
     return render_template('contact.html')
+
+
+@app.after_request
+def add_header(response):
+    for key, value in headers.items():
+        response.headers[key] = value
+    return response
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+@app.errorhandler(500)
+def internal_server_error(e):
+    return render_template('500.html'), 500
+
+@app.errorhandler(504)
+def gateway_timeout(e):
+    return render_template('504.html'), 504
