@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevOps Mentorship</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <script src="https://sentry.africantech.dev/js-sdk-loader/a8a5fcb0b16a61bc009c9d3d2c11ea16.min.js"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">DevOps Mentorship</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,32 +37,39 @@
         <div class="row">
             <div class="col-md-12">
                 <h1>Welcome to DevOps Mentorship</h1>
+
                 <p>Select a course and enter a lab number to search for individual questions.</p>
                 <h2>Available Labs</h2>
                 <div id="accordion">
                     {% for course, labs in courses.items() %}
-                        <div class="card">
-                            <div class="card-header" id="heading{{ course }}">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ course }}" aria-expanded="true" aria-controls="collapse{{ course }}">
-                                        {{ course }}
-                                    </button>
-                                </h5>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="heading{{ course }}">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ course }}"
+                                    aria-expanded="true" aria-controls="collapse{{ course }}">
+                                    {{ course }}
+                                </button>
+                            </h5>
+                        </div>
 
-                            <div id="collapse{{ course }}" class="collapse" aria-labelledby="heading{{ course }}" data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul>
-                                        {% for lab in labs %}
-                                            <li>{{ lab }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
+                        <div id="collapse{{ course }}" class="collapse" aria-labelledby="heading{{ course }}"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    {% for lab in labs %}
+                                    <li>{{ lab }}</li>
+                                    {% endfor %}
+                                </ul>
                             </div>
                         </div>
+                    </div>
                     {% endfor %}
                 </div>
             </div>
+        </div>
+        <div class="buymeacoffee">
+            <a href="https://www.buymeacoffee.com/idrisniyi9v"><img
+                    src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=idrisniyi9v&button_colour=5F7FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
         </div>
     </div>
 
@@ -65,4 +77,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
