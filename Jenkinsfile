@@ -98,15 +98,15 @@ pipeline {
                     dir('k8s') {
                         kubeconfig(credentialsId: '3f12ff7b-93cb-4ea5-bc21-79bcf5fb1925', serverUrl: '') {
                             if (env.BRANCH_NAME == 'dev') {
-                                sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/dev/kustomization.yaml"
+                                sh "sed -i 's|IMAGE_TAG|${IMAGE_TAG}|g' overlays/dev/kustomization.yaml"
                                 sh "kustomize build overlays/dev | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship-lab.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else if (env.BRANCH_NAME == 'staging') {
-                                sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/staging/kustomization.yaml"
+                                sh "sed -i 's|IMAGE_TAG|${IMAGE_TAG}|g' overlays/staging/kustomization.yaml"
                                 sh "kustomize build overlays/staging | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship-staging.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else if (env.BRANCH_NAME == 'prod') {
-                                sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/prod/kustomization.yaml"
+                                sh "sed -i 's|IMAGE_TAG|${IMAGE_TAG}|g' overlays/prod/kustomization.yaml"
                                 sh "kustomize build overlays/prod | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else {
