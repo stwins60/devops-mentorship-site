@@ -23,7 +23,7 @@ spec:
                       - k8s
       containers:
       - name: mentorship-lab-deployment
-        image: idrisniyi94/devops-mentorship-lab:v.0.0.0
+        image: idrisniyi94/devops-mentorship-site:latest
         resources:
           limits:
             memory: "128Mi"
