@@ -99,15 +99,15 @@ pipeline {
                         kubeconfig(credentialsId: '3f12ff7b-93cb-4ea5-bc21-79bcf5fb1925', serverUrl: '') {
                             if (env.BRANCH_NAME == 'dev') {
                                 sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/dev/kustomization.yaml"
-                                sh "kubectl build overlays/dev | kubectl apply -f -"
+                                sh "kustomize build overlays/dev | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship-lab.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else if (env.BRANCH_NAME == 'staging') {
                                 sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/staging/kustomization.yaml"
-                                sh "kubectl build overlays/staging | kubectl apply -f -"
+                                sh "kustomize build overlays/staging | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship-staging.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else if (env.BRANCH_NAME == 'prod') {
                                 sh "sed -i 's|IMAGE_NAME|${IMAGE_NAME}|g' overlays/prod/kustomization.yaml"
-                                sh "kubectl build overlays/prod | kubectl apply -f -"
+                                sh "kustomize build overlays/prod | kubectl apply -f -"
                                 slackSend channel: '#alerts', color: 'good', message: "DevOps Mentorship Site Deployed Successfully with image tag ${IMAGE_TAG} \n URL: https://devops-mentorship.africantech.dev \n More Info ${env.BUILD_URL}"
                             } else {
                                 slackSend channel: '#alerts', color: 'danger', message: "Deployment failed. Branch name not found"
