@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Learning</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>DevOps Mentorship</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <h1>DevOps Learning</h1>
-            <nav>
-                <ul>
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li><a href="{{ url_for('course_search') }}">Courses</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="container">
-            <h2>About DevOps</h2>
-            <p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten
-                the systems development life cycle and provide continuous delivery with high software quality.</p>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Continuous Integration</li>
-                <li>Continuous Deployment</li>
-                <li>Infrastructure as Code</li>
-                <li>Monitoring and Logging</li>
-                <li>Automated Testing</li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">DevOps Mentorship</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('course_search') }}">Search Labs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                </li>
             </ul>
         </div>
-    </section>
+    </nav>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or inquiries, feel free to contact us.</p>
-            <form action="{{ url_for('contact') }}" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <p>{{success}}</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Welcome to DevOps Mentorship</h1>
+                <p>Select a course and enter a lab number to search for individual questions.</p>
+                <h2>Available Labs</h2>
+                <div id="accordion">
+                    {% for course, labs in courses.items() %}
+                        <div class="card">
+                            <div class="card-header" id="heading{{ course }}">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ course }}" aria-expanded="true" aria-controls="collapse{{ course }}">
+                                        {{ course }}
+                                    </button>
+                                </h5>
+                            </div>
 
-            <p>{{ msg }}</p>
+                            <div id="collapse{{ course }}" class="collapse" aria-labelledby="heading{{ course }}" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul>
+                                        {% for lab in labs %}
+                                            <li>{{ lab }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 DevOps Learning</p>
-        </div>
-    </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

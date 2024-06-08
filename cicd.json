@@ -1,0 +1,402 @@
+{
+    "01": {
+        "number": "01",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS EC2 instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to use Terraform to automate the deployment of EC2 instances on AWS.\n\nProvision an AWS EC2 instance using Terraform."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Lab Objective\nThe objective of this lab is to create an S3 bucket with versioning enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS S3 buckets and enable versioning using Terraform.\n\nCreate an S3 bucket with versioning enabled using Terraform."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lambda function using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lambda functions on AWS using Terraform.\n\nDeploy an AWS Lambda function using Terraform."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Lab Objective\nThe objective of this lab is to set up a CI/CD pipeline using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using Jenkins CI/CD pipelines.\n\nSet up a CI/CD pipeline using Jenkins."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Azure Resource Group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Azure infrastructure using Terraform.\n\nCreate an Azure Resource Group using Terraform."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container on AWS ECS using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers on AWS ECS using Terraform.\n\nDeploy a Docker container on AWS ECS using Terraform."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration with GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration of your code using GitHub Actions.\n\nSet up continuous integration with GitHub Actions."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Kubernetes cluster on AWS EKS using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Kubernetes clusters on AWS using Terraform.\n\nDeploy a Kubernetes cluster on AWS EKS using Terraform."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Lab Objective\nThe objective of this lab is to set up a monitoring system using Prometheus and Grafana.\n\n# Outcome\nAfter completing this lab, you should be able to monitor your applications and infrastructure using Prometheus and Grafana.\n\nSet up a monitoring system using Prometheus and Grafana."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Lab Objective\nThe objective of this lab is to create an IAM role for an AWS service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage IAM roles and permissions using Terraform.\n\nCreate an IAM role for an AWS service using Terraform."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an application to AWS Elastic Beanstalk using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications to AWS Elastic Beanstalk using Terraform.\n\nDeploy an application to AWS Elastic Beanstalk using Terraform."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using GitLab CI/CD pipelines.\n\nCreate a CI/CD pipeline using GitLab CI."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous deployment with CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of your applications using CircleCI.\n\nSet up continuous deployment with CircleCI."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an Azure App Service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Azure App Services using Terraform.\n\nDeploy an Azure App Service using Terraform."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS RDS instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of AWS RDS instances using Terraform.\n\nCreate an AWS RDS instance using Terraform."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Lab Objective\nThe objective of this lab is to set up an automated testing environment using Selenium and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate browser testing using Selenium and Jenkins.\n\nSet up an automated testing environment using Selenium and Jenkins."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a serverless application using AWS CodePipeline.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of serverless applications using AWS CodePipeline.\n\nCreate a CI/CD pipeline for a serverless application using AWS CodePipeline."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Function using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Functions using Terraform.\n\nDeploy a Google Cloud Function using Terraform."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Lab Objective\nThe objective of this lab is to set up infrastructure as code (IaC) with Azure DevOps.\n\n# Outcome\nAfter completing this lab, you should be able to manage infrastructure using Azure DevOps and IaC practices.\n\nSet up infrastructure as code (IaC) with Azure DevOps."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Bamboo.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using Bamboo CI/CD pipelines.\n\nCreate a CI/CD pipeline using Bamboo."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a microservices application using Kubernetes and Helm.\n\n# Outcome\nAfter completing this lab, you should be able to manage microservices applications using Kubernetes and Helm.\n\nDeploy a microservices application using Kubernetes and Helm."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using AWS CodeBuild and CodeDeploy.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment processes using AWS CodeBuild and CodeDeploy.\n\nCreate a CI/CD pipeline using AWS CodeBuild and CodeDeploy."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway with Lambda integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage API Gateway and Lambda functions using Terraform.\n\nDeploy an AWS API Gateway with Lambda integration using Terraform."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration and deployment for a Python application using Travis CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and deployment for Python applications using Travis CI.\n\nSet up continuous integration and deployment for a Python application using Travis CI."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Bitbucket Pipelines.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline using Bitbucket Pipelines."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an Azure Kubernetes Service (AKS) cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AKS clusters using Terraform.\n\nDeploy an Azure Kubernetes Service (AKS) cluster using Terraform."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated security scanning using SonarQube and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate security scans of your codebase using SonarQube and Jenkins.\n\nSet up automated security scanning using SonarQube and Jenkins."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using AWS CodePipeline and CodeCommit.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using AWS CodePipeline and CodeCommit.\n\nCreate a CI/CD pipeline using AWS CodePipeline and CodeCommit."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an Azure Functions app using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Azure Functions using Terraform.\n\nDeploy an Azure Functions app using Terraform."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous delivery for a Node.js application using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Node.js applications using GitHub Actions.\n\nSet up continuous delivery for a Node.js application using GitHub Actions."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Java application using Jenkins and Maven.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Java applications using Jenkins and Maven.\n\nCreate a CI/CD pipeline for a Java application using Jenkins and Maven."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Google Cloud using Cloud Functions and Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage serverless applications on Google Cloud using Cloud Functions and Terraform.\n\nDeploy a serverless application on Google Cloud using Cloud Functions and Terraform."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous deployment for a Ruby on Rails application using CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Ruby on Rails applications using CircleCI.\n\nSet up continuous deployment for a Ruby on Rails application using CircleCI."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Azure Pipelines and GitHub.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using Azure Pipelines and GitHub.\n\nCreate a CI/CD pipeline using Azure Pipelines and GitHub."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a containerized application to Google Kubernetes Engine (GKE) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage containerized applications on GKE using Terraform.\n\nDeploy a containerized application to Google Kubernetes Engine (GKE) using Terraform."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a Go application using Travis CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for Go applications using Travis CI.\n\nSet up continuous integration for a Go application using Travis CI."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Jenkins and Docker.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Docker containers using Jenkins.\n\nCreate a CI/CD pipeline using Jenkins and Docker."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google App Engine application using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google App Engine applications using Terraform.\n\nDeploy a Google App Engine application using Terraform."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration and delivery for a PHP application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and deployment for PHP applications using GitLab CI.\n\nSet up continuous integration and delivery for a PHP application using GitLab CI."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a React application using Bitbucket Pipelines.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of React applications using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline for a React application using Bitbucket Pipelines."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud SQL instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud SQL instances using Terraform.\n\nDeploy a Google Cloud SQL instance using Terraform."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated performance testing using JMeter and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate performance testing of your applications using JMeter and Jenkins.\n\nSet up automated performance testing using JMeter and Jenkins."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using AWS CodePipeline and CodeStar.\n\n# Outcome\nAfter completing this lab, you should be able to automate the software delivery process using AWS CodePipeline and CodeStar.\n\nCreate a CI/CD pipeline using AWS CodePipeline and CodeStar."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFormation stack using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS CloudFormation stacks using Terraform.\n\nDeploy an AWS CloudFormation stack using Terraform."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous deployment for a Django application using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Django applications using GitHub Actions.\n\nSet up continuous deployment for a Django application using GitHub Actions."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a .NET application using Azure DevOps.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of .NET applications using Azure DevOps.\n\nCreate a CI/CD pipeline for a .NET application using Azure DevOps."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application using the Serverless Framework and AWS.\n\n# Outcome\nAfter completing this lab, you should be able to manage serverless applications using the Serverless Framework and AWS.\n\nDeploy a serverless application using the Serverless Framework and AWS."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a C++ application using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for C++ applications using Jenkins.\n\nSet up continuous integration for a C++ application using Jenkins."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Flask application using CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Flask applications using CircleCI.\n\nCreate a CI/CD pipeline for a Flask application using CircleCI."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an Azure SQL Database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Azure SQL Databases using Terraform.\n\nDeploy an Azure SQL Database using Terraform."
+    },
+    "51": {
+        "number": "51",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using SonarCloud and GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using SonarCloud and GitHub Actions.\n\nSet up automated code quality checks using SonarCloud and GitHub Actions."
+    },
+    "52": {
+        "number": "52",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Jenkins and Ansible.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of infrastructure and applications using Jenkins and Ansible.\n\nCreate a CI/CD pipeline using Jenkins and Ansible."
+    },
+    "53": {
+        "number": "53",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Azure using Azure Functions and Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage serverless applications on Azure using Azure Functions and Terraform.\n\nDeploy a serverless application on Azure using Azure Functions and Terraform."
+    },
+    "54": {
+        "number": "54",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration and delivery for a Swift application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and deployment for Swift applications using GitLab CI.\n\nSet up continuous integration and delivery for a Swift application using GitLab CI."
+    },
+    "55": {
+        "number": "55",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Bitbucket Pipelines and Docker.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Docker containers using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline using Bitbucket Pipelines and Docker."
+    },
+    "56": {
+        "number": "56",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elastic File System (EFS) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS EFS using Terraform.\n\nDeploy an AWS Elastic File System (EFS) using Terraform."
+    },
+    "57": {
+        "number": "57",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated unit testing using Jest and GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate unit testing of your applications using Jest and GitHub Actions.\n\nSet up automated unit testing using Jest and GitHub Actions."
+    },
+    "58": {
+        "number": "58",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Jenkins and Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications to Kubernetes using Jenkins.\n\nCreate a CI/CD pipeline using Jenkins and Kubernetes."
+    },
+    "59": {
+        "number": "59",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Storage bucket with versioning enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Storage buckets and enable versioning using Terraform.\n\nDeploy a Google Cloud Storage bucket with versioning enabled using Terraform."
+    },
+    "60": {
+        "number": "60",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a Rust application using CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for Rust applications using CircleCI.\n\nSet up continuous integration for a Rust application using CircleCI."
+    },
+    "61": {
+        "number": "61",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Vue.js application using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Vue.js applications using GitHub Actions.\n\nCreate a CI/CD pipeline for a Vue.js application using GitHub Actions."
+    },
+    "62": {
+        "number": "62",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DynamoDB table using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS DynamoDB tables using Terraform.\n\nDeploy an AWS DynamoDB table using Terraform."
+    },
+    "63": {
+        "number": "63",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated API testing using Postman and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate API testing using Postman and Jenkins.\n\nSet up automated API testing using Postman and Jenkins."
+    },
+    "64": {
+        "number": "64",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Azure Pipelines and Docker.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Docker containers using Azure Pipelines.\n\nCreate a CI/CD pipeline using Azure Pipelines and Docker."
+    },
+    "65": {
+        "number": "65",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Pub/Sub topic using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Pub/Sub topics using Terraform.\n\nDeploy a Google Cloud Pub/Sub topic using Terraform."
+    },
+    "66": {
+        "number": "66",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous deployment for a Spring Boot application using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Spring Boot applications using GitHub Actions.\n\nSet up continuous deployment for a Spring Boot application using GitHub Actions."
+    },
+    "67": {
+        "number": "67",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for an Angular application using Bitbucket Pipelines.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Angular applications using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline for an Angular application using Bitbucket Pipelines."
+    },
+    "68": {
+        "number": "68",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a serverless application on Google Cloud using Google Cloud Functions and Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage serverless applications on Google Cloud using Google Cloud Functions and Terraform.\n\nDeploy a serverless application on Google Cloud using Google Cloud Functions and Terraform."
+    },
+    "69": {
+        "number": "69",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a Kotlin application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for Kotlin applications using GitLab CI.\n\nSet up continuous integration for a Kotlin application using GitLab CI."
+    },
+    "70": {
+        "number": "70",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using AWS CodePipeline and Lambda.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of serverless applications using AWS CodePipeline and Lambda.\n\nCreate a CI/CD pipeline using AWS CodePipeline and Lambda."
+    },
+    "71": {
+        "number": "71",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS RDS instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS RDS instances using Terraform.\n\nDeploy an AWS RDS instance using Terraform."
+    },
+    "72": {
+        "number": "72",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated security testing using OWASP ZAP and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate security testing using OWASP ZAP and Jenkins.\n\nSet up automated security testing using OWASP ZAP and Jenkins."
+    },
+    "73": {
+        "number": "73",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using GitHub Actions and Docker.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Docker containers using GitHub Actions.\n\nCreate a CI/CD pipeline using GitHub Actions and Docker."
+    },
+    "74": {
+        "number": "74",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud BigQuery dataset using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud BigQuery datasets using Terraform.\n\nDeploy a Google Cloud BigQuery dataset using Terraform."
+    },
+    "75": {
+        "number": "75",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous delivery for a Laravel application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Laravel applications using GitLab CI.\n\nSet up continuous delivery for a Laravel application using GitLab CI."
+    },
+    "76": {
+        "number": "76",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a React Native application using CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of React Native applications using CircleCI.\n\nCreate a CI/CD pipeline for a React Native application using CircleCI."
+    },
+    "77": {
+        "number": "77",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS ElastiCache cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS ElastiCache clusters using Terraform.\n\nDeploy an AWS ElastiCache cluster using Terraform."
+    },
+    "78": {
+        "number": "78",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated end-to-end testing using Cypress and GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate end-to-end testing of your applications using Cypress and GitHub Actions.\n\nSet up automated end-to-end testing using Cypress and GitHub Actions."
+    },
+    "79": {
+        "number": "79",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Jenkins and AWS.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications to AWS using Jenkins.\n\nCreate a CI/CD pipeline using Jenkins and AWS."
+    },
+    "80": {
+        "number": "80",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Spanner instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Spanner instances using Terraform.\n\nDeploy a Google Cloud Spanner instance using Terraform."
+    },
+    "81": {
+        "number": "81",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration and delivery for a TypeScript application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and deployment for TypeScript applications using GitLab CI.\n\nSet up continuous integration and delivery for a TypeScript application using GitLab CI."
+    },
+    "82": {
+        "number": "82",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Flutter application using Bitbucket Pipelines.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Flutter applications using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline for a Flutter application using Bitbucket Pipelines."
+    },
+    "83": {
+        "number": "83",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS ECR repository using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS ECR repositories using Terraform.\n\nDeploy an AWS ECR repository using Terraform."
+    },
+    "84": {
+        "number": "84",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated functional testing using Selenium and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate functional testing using Selenium and Jenkins.\n\nSet up automated functional testing using Selenium and Jenkins."
+    },
+    "85": {
+        "number": "85",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using GitHub Actions and Kubernetes.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications to Kubernetes using GitHub Actions.\n\nCreate a CI/CD pipeline using GitHub Actions and Kubernetes."
+    },
+    "86": {
+        "number": "86",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Firestore database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Firestore databases using Terraform.\n\nDeploy a Google Cloud Firestore database using Terraform."
+    },
+    "87": {
+        "number": "87",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a Scala application using CircleCI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for Scala applications using CircleCI.\n\nSet up continuous integration for a Scala application using CircleCI."
+    },
+    "88": {
+        "number": "88",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Svelte application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Svelte applications using GitLab CI.\n\nCreate a CI/CD pipeline for a Svelte application using GitLab CI."
+    },
+    "89": {
+        "number": "89",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFront distribution using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS CloudFront distributions using Terraform.\n\nDeploy an AWS CloudFront distribution using Terraform."
+    },
+    "90": {
+        "number": "90",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code reviews using Reviewdog and GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate code reviews using Reviewdog and GitHub Actions.\n\nSet up automated code reviews using Reviewdog and GitHub Actions."
+    },
+    "91": {
+        "number": "91",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using Jenkins and Google Cloud.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of applications to Google Cloud using Jenkins.\n\nCreate a CI/CD pipeline using Jenkins and Google Cloud."
+    },
+    "92": {
+        "number": "92",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Google Cloud Memorystore instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Google Cloud Memorystore instances using Terraform.\n\nDeploy a Google Cloud Memorystore instance using Terraform."
+    },
+    "93": {
+        "number": "93",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous deployment for a GraphQL API using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of GraphQL APIs using GitHub Actions.\n\nSet up continuous deployment for a GraphQL API using GitHub Actions."
+    },
+    "94": {
+        "number": "94",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Gatsby application using Bitbucket Pipelines.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Gatsby applications using Bitbucket Pipelines.\n\nCreate a CI/CD pipeline for a Gatsby application using Bitbucket Pipelines."
+    },
+    "95": {
+        "number": "95",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Kinesis stream using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS Kinesis streams using Terraform.\n\nDeploy an AWS Kinesis stream using Terraform."
+    },
+    "96": {
+        "number": "96",
+        "question": "# Lab Objective\nThe objective of this lab is to set up continuous integration for a Go application using GitLab CI.\n\n# Outcome\nAfter completing this lab, you should be able to automate testing and integration for Go applications using GitLab CI.\n\nSet up continuous integration for a Go application using GitLab CI."
+    },
+    "97": {
+        "number": "97",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline using CircleCI and Docker.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Docker containers using CircleCI.\n\nCreate a CI/CD pipeline using CircleCI and Docker."
+    },
+    "98": {
+        "number": "98",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an Azure Cosmos DB instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage Azure Cosmos DB instances using Terraform.\n\nDeploy an Azure Cosmos DB instance using Terraform."
+    },
+    "99": {
+        "number": "99",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated performance testing using Gatling and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate performance testing using Gatling and Jenkins.\n\nSet up automated performance testing using Gatling and Jenkins."
+    },
+    "100": {
+        "number": "100",
+        "question": "# Lab Objective\nThe objective of this lab is to create a CI/CD pipeline for a Blazor application using GitHub Actions.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build and deployment of Blazor applications using GitHub Actions.\n\nCreate a CI/CD pipeline for a Blazor application using GitHub Actions."
+    }
+}

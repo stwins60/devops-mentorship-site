@@ -1,0 +1,202 @@
+{
+    "01": {
+        "number": "01",
+        "question": "# Lab Objective\nThe objective of this lab is to set up an Ansible control node on an AWS EC2 instance.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and configure an Ansible control node on AWS EC2.\n\nSet up an Ansible control node on an AWS EC2 instance."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to install Apache on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the installation of Apache using Ansible playbooks.\n\nCreate an Ansible playbook to install Apache on a remote server."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a MySQL database on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a MySQL database using Ansible.\n\nUse Ansible to configure a MySQL database on a remote server."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Node.js application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Node.js applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Node.js application."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible Vault to manage sensitive data.\n\n# Outcome\nAfter completing this lab, you should be able to secure sensitive information using Ansible Vault.\n\nUse Ansible Vault to manage sensitive data."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to configure Nginx as a reverse proxy.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of Nginx as a reverse proxy using Ansible playbooks.\n\nCreate an Ansible playbook to configure Nginx as a reverse proxy."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to set up a LAMP stack on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of a LAMP stack using Ansible.\n\nUse Ansible to set up a LAMP stack on a remote server."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing users and groups.\n\n# Outcome\nAfter completing this lab, you should be able to automate user and group management using Ansible roles.\n\nCreate an Ansible role for managing users and groups."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a PostgreSQL database on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a PostgreSQL database using Ansible.\n\nUse Ansible to configure a PostgreSQL database on a remote server."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Docker container.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Docker container."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Redis server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Redis server using Ansible.\n\nUse Ansible to configure a Redis server on a remote server."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Python web application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Python web applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Python web application."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a MongoDB database on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a MongoDB database using Ansible.\n\nUse Ansible to configure a MongoDB database on a remote server."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Java application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Java applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Java application."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Kubernetes cluster on a set of remote servers.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Kubernetes cluster using Ansible.\n\nUse Ansible to configure a Kubernetes cluster on a set of remote servers."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing SSH keys.\n\n# Outcome\nAfter completing this lab, you should be able to automate SSH key management using Ansible roles.\n\nCreate an Ansible role for managing SSH keys."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Jenkins server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Jenkins server using Ansible.\n\nUse Ansible to configure a Jenkins server on a remote server."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Ruby on Rails application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Ruby on Rails applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Ruby on Rails application."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure an Elasticsearch cluster on remote servers.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of an Elasticsearch cluster using Ansible.\n\nUse Ansible to configure an Elasticsearch cluster on remote servers."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a PHP application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of PHP applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a PHP application."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Prometheus monitoring server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Prometheus monitoring server using Ansible.\n\nUse Ansible to configure a Prometheus monitoring server on a remote server."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing firewall rules.\n\n# Outcome\nAfter completing this lab, you should be able to automate firewall rule management using Ansible roles.\n\nCreate an Ansible role for managing firewall rules."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Grafana server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Grafana server using Ansible.\n\nUse Ansible to configure a Grafana server on a remote server."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Golang application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Golang applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Golang application."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a RabbitMQ server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a RabbitMQ server using Ansible.\n\nUse Ansible to configure a RabbitMQ server on a remote server."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing system packages.\n\n# Outcome\nAfter completing this lab, you should be able to automate system package management using Ansible roles.\n\nCreate an Ansible role for managing system packages."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure an NFS server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of an NFS server using Ansible.\n\nUse Ansible to configure an NFS server on a remote server."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Swift application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Swift applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Swift application."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Zabbix monitoring server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Zabbix monitoring server using Ansible.\n\nUse Ansible to configure a Zabbix monitoring server on a remote server."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing cron jobs.\n\n# Outcome\nAfter completing this lab, you should be able to automate cron job management using Ansible roles.\n\nCreate an Ansible role for managing cron jobs."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Consul server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Consul server using Ansible.\n\nUse Ansible to configure a Consul server on a remote server."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Rust application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Rust applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Rust application."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Graylog server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Graylog server using Ansible.\n\nUse Ansible to configure a Graylog server on a remote server."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing network configurations.\n\n# Outcome\nAfter completing this lab, you should be able to automate network configuration management using Ansible roles.\n\nCreate an Ansible role for managing network configurations."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure an HAProxy server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of an HAProxy server using Ansible.\n\nUse Ansible to configure an HAProxy server on a remote server."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Haskell application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Haskell applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Haskell application."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Kafka server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Kafka server using Ansible.\n\nUse Ansible to configure a Kafka server on a remote server."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing log rotation configurations.\n\n# Outcome\nAfter completing this lab, you should be able to automate log rotation configuration management using Ansible roles.\n\nCreate an Ansible role for managing log rotation configurations."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure an OpenVPN server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of an OpenVPN server using Ansible.\n\nUse Ansible to configure an OpenVPN server on a remote server."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Scala application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Scala applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Scala application."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Memcached server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Memcached server using Ansible.\n\nUse Ansible to configure a Memcached server on a remote server."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing SELinux policies.\n\n# Outcome\nAfter completing this lab, you should be able to automate SELinux policy management using Ansible roles.\n\nCreate an Ansible role for managing SELinux policies."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Jenkins agent on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Jenkins agent using Ansible.\n\nUse Ansible to configure a Jenkins agent on a remote server."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy an Elixir application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elixir applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy an Elixir application."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a Docker Swarm cluster on remote servers.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a Docker Swarm cluster using Ansible.\n\nUse Ansible to configure a Docker Swarm cluster on remote servers."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible role for managing disk partitions.\n\n# Outcome\nAfter completing this lab, you should be able to automate disk partition management using Ansible roles.\n\nCreate an Ansible role for managing disk partitions."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure an Apache Tomcat server on a remote server.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of an Apache Tomcat server using Ansible.\n\nUse Ansible to configure an Apache Tomcat server on a remote server."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Perl application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Perl applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Perl application."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Lab Objective\nThe objective of this lab is to use Ansible to configure a GlusterFS storage cluster on remote servers.\n\n# Outcome\nAfter completing this lab, you should be able to automate the configuration of a GlusterFS storage cluster using Ansible.\n\nUse Ansible to configure a GlusterFS storage cluster on remote servers."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Lab Objective\nThe objective of this lab is to create an Ansible playbook to deploy a Kotlin application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Kotlin applications using Ansible playbooks.\n\nCreate an Ansible playbook to deploy a Kotlin application."
+    }
+}
