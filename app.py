@@ -189,22 +189,6 @@ def course_search():
           
     return render_template('course_search.html', choices=choices, selected_course=selected_course, html_content=html_content, result=result)
 
-@app.route('/courses/linux/')
-def linux_course(course_number):
-    if request.method == 'POST':
-        course_number = request.form['course']
-        BASE_URL = "https://raw.githubusercontent.com/livialima/linuxupskillchallenge/master/docs/"
-        response = requests.get(f"{BASE_URL}{course_number}.md")
-
-        if response.status_code == 200:
-            content = response.text
-            html_content = markdown.markdown(content)
-
-            return redirect(url_for('course', course=course_number))
-        else:
-            return "Course not found", 404
-    return render_template('course-search.html')
-
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     msg = ''
