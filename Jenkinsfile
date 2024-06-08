@@ -111,6 +111,7 @@ pipeline {
                             } else {
                                 slackSend channel: '#alerts', color: 'danger', message: "Deployment failed. Branch name not found"
                             }
+                        }
                     }
                 }
             }
