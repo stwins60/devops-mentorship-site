@@ -114,7 +114,10 @@ def index():
         'Docker': list(docker.keys()),
         'Kubernetes': list(kubernetes.keys()),
         'AWS': list(aws.keys()),
-        'Terraform': list(terraform.keys())
+        'Terraform': list(terraform.keys()),
+        'CI/CD': list(cicd.keys()),
+        'Jenkins': list(jenkins.keys()),
+        'Ansible': list(ansible.keys())
     }
     return render_template('index.html', courses=courses)
 
