@@ -2,54 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
-<!--    <script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>-->
-<!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
-<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>-->
-
-    <title>Devops Mentorship Lab Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Labs - DevOps Mentorship</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <script type="module">
-        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-        Chatbot.init({
-            chatflowid: "4f461a13-15ae-4b91-953c-104c12cfee57",
-            apiHost: "https://flowise.africantech.dev",
-        })
-    </script>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
-<!--                    <li><a href="{{ url_for('course_search') }}">Courses</a></li>-->
-                </ul>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">DevOps Mentorship</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('course_search') }}">Search Labs <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <div class="container">
-        <h1>Lab Search</h1>
-        <form action="{{ url_for('course_search') }}" id="course-search-form" method="post" enctype="multipart/form-data">
-            <label for="search-term">Search Term:</label>
-            <select name="search-term" id="search-term" style="margin-top: 10px;">
-                {% for term in choices %}
-                    <option {% if term == selected_course %}selected{% endif %}>{{ term }}</option>
-                {% endfor %}
-            </select>
-            <div id="search-input">
-                <label for="search-value">Lab Number:</label>
-                <input type="text" name="lab-number" id="lab-number" placeholder="Enter Lab Number" value="00" style="margin-bottom: 20px; margin-top: 10px;">
-            </div>
-            <button type="submit">Search</button>
-        </form>
-        <div class="overlay-panel overlay-right">
-            <h2>Lab Question</h2>
-            <div class="markdown-content">
-                <!-- Display the content of the README file -->
-                {{ html_content | safe }}
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Search Labs</h1>
+                <p>Select a course and enter a lab number to search for individual questions.</p>
+                <form action="{{ url_for('course_search') }}" method="post">
+                    <div class="form-group">
+                        <label for="search-term">Course</label>
+                        <select class="form-control" id="search-term" name="search-term">
+                            {% for choice in choices %}
+                                <option value="{{ choice }}" {% if choice == selected_course %}selected{% endif %}>{{ choice }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="lab-number">Lab Number</label>
+                        <input type="number" class="form-control" id="lab-number" name="lab-number" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+                {% if html_content %}
+                    <div class="mt-5">
+                        {{ html_content | safe }}
+                    </div>
+                {% else %}
+                    <div class="mt-5">
+                        <p>{{ result }}</p>
+                        <a href="{{ url_for('course_search') }}" class="btn btn-primary">Back</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

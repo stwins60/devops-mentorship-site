@@ -1,402 +1,402 @@
 {
-"01": {
-"number": "01",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS EC2 instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to use Terraform to automate the deployment of EC2 instances on AWS.\n\nProvision an AWS EC2 instance using Terraform."
-},
-"02": {
-"number": "02",
-"question": "# Lab Objective\nThe objective of this lab is to create an S3 bucket with versioning enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS S3 buckets and enable versioning using Terraform.\n\nCreate an S3 bucket with versioning enabled using Terraform."
-},
-"03": {
-"number": "03",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lambda function using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lambda functions on AWS using Terraform.\n\nDeploy an AWS Lambda function using Terraform."
-},
-"04": {
-"number": "04",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS VPC (Virtual Private Cloud) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to define and deploy VPC configurations on AWS using Terraform.\n\nProvision an AWS VPC using Terraform."
-},
-"05": {
-"number": "05",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS RDS (Relational Database Service) instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of RDS instances on AWS using Terraform.\n\nCreate an AWS RDS instance using Terraform."
-},
-"06": {
-"number": "06",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS ECS (Elastic Container Service) cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to use Terraform to define and deploy ECS clusters on AWS.\n\nDeploy an AWS ECS cluster using Terraform."
-},
-"07": {
-"number": "07",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS IAM (Identity and Access Management) role using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of IAM roles on AWS using Terraform.\n\nCreate an AWS IAM role using Terraform."
-},
-"08": {
-"number": "08",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with lifecycle policies using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage S3 bucket lifecycle policies using Terraform.\n\nProvision an AWS S3 bucket with lifecycle policies using Terraform."
-},
-"09": {
-"number": "09",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateways on AWS using Terraform.\n\nDeploy an AWS API Gateway using Terraform."
-},
-"10": {
-"number": "10",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Route 53 DNS record using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the management of DNS records on AWS Route 53 using Terraform.\n\nProvision an AWS Route 53 DNS record using Terraform."
-},
-"11": {
-"number": "11",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFront distribution using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions on AWS using Terraform.\n\nCreate an AWS CloudFront distribution using Terraform."
-},
-"12": {
-"number": "12",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS SQS (Simple Queue Service) queue using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SQS queues on AWS using Terraform.\n\nProvision an AWS SQS queue using Terraform."
-},
-"13": {
-"number": "13",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS SNS (Simple Notification Service) topic using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SNS topics on AWS using Terraform.\n\nDeploy an AWS SNS topic using Terraform."
-},
-"14": {
-"number": "14",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudWatch dashboard using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudWatch dashboards on AWS using Terraform.\n\nCreate an AWS CloudWatch dashboard using Terraform."
-},
-"15": {
-"number": "15",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with encryption enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of encrypted S3 buckets on AWS using Terraform.\n\nProvision an AWS S3 bucket with encryption enabled using Terraform."
-},
-"16": {
-"number": "16",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DynamoDB table using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DynamoDB tables on AWS using Terraform.\n\nDeploy an AWS DynamoDB table using Terraform."
-},
-"17": {
-"number": "17",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Lambda function triggered by S3 events using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Lambda functions triggered by S3 events using Terraform.\n\nCreate an AWS Lambda function triggered by S3 events using Terraform."
-},
-"18": {
-"number": "18",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS ECS Fargate service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of ECS Fargate services on AWS using Terraform.\n\nProvision an AWS ECS Fargate service using Terraform."
-},
-"19": {
-"number": "19",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Glue job using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue jobs on AWS using Terraform.\n\nDeploy an AWS Glue job using Terraform."
-},
-"20": {
-"number": "20",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudTrail trail using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudTrail trails on AWS using Terraform.\n\nProvision an AWS CloudTrail trail using Terraform."
-},
-"21": {
-"number": "21",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Kinesis stream using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Kinesis streams on AWS using Terraform.\n\nCreate an AWS Kinesis stream using Terraform."
-},
-"22": {
-"number": "22",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway with Lambda integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateways with Lambda integration on AWS using Terraform.\n\nDeploy an AWS API Gateway with Lambda integration using Terraform."
-},
-"23": {
-"number": "23",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with cross-region replication using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with cross-region replication on AWS using Terraform.\n\nProvision an AWS S3 bucket with cross-region replication using Terraform."
-},
-"24": {
-"number": "24",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Elastic Beanstalk application using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Beanstalk applications on AWS using Terraform.\n\nCreate an AWS Elastic Beanstalk application using Terraform."
-},
-"25": {
-"number": "25",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFormation stack using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stacks on AWS using Terraform.\n\nDeploy an AWS CloudFormation stack using Terraform."
-},
-"26": {
-"number": "26",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS ECR (Elastic Container Registry) repository using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of ECR repositories on AWS using Terraform.\n\nProvision an AWS ECR repository using Terraform."
-},
-"27": {
-"number": "27",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudWatch alarm using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudWatch alarms on AWS using Terraform.\n\nCreate an AWS CloudWatch alarm using Terraform."
-},
-"28": {
-"number": "28",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS S3 bucket with access logging enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with access logging enabled on AWS using Terraform.\n\nDeploy an AWS S3 bucket with access logging enabled using Terraform."
-},
-"29": {
-"number": "29",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudFront distribution with SSL/TLS certificate using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with SSL/TLS certificates on AWS using Terraform.\n\nProvision an AWS CloudFront distribution with SSL/TLS certificate using Terraform."
-},
-"30": {
-"number": "30",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Neptune graph database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Neptune graph databases on AWS using Terraform.\n\nCreate an AWS Neptune graph database using Terraform."
-},
-"31": {
-"number": "31",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WAF (Web Application Firewall) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAF configurations on AWS using Terraform.\n\nDeploy an AWS WAF using Terraform."
-},
-"32": {
-"number": "32",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Secrets Manager secret using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Secrets Manager secrets on AWS using Terraform.\n\nProvision an AWS Secrets Manager secret using Terraform."
-},
-"33": {
-"number": "33",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack set using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stack sets on AWS using Terraform.\n\nCreate an AWS CloudFormation stack set using Terraform."
-},
-"34": {
-"number": "34",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Batch compute environment using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Batch compute environments on AWS using Terraform.\n\nDeploy an AWS Batch compute environment using Terraform."
-},
-"35": {
-"number": "35",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS KMS (Key Management Service) key using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of KMS keys on AWS using Terraform.\n\nProvision an AWS KMS key using Terraform."
-},
-"36": {
-"number": "36",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Glue crawler using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Glue crawlers for data discovery on AWS using Terraform.\n\nCreate an AWS Glue crawler using Terraform."
-},
-"37": {
-"number": "37",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Step Functions state machine using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Step Functions state machines on AWS using Terraform.\n\nDeploy an AWS Step Functions state machine using Terraform."
-},
-"38": {
-"number": "38",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Direct Connect connection using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Direct Connect connections on AWS using Terraform.\n\nProvision an AWS Direct Connect connection using Terraform."
-},
-"39": {
-"number": "39",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CodePipeline pipeline using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodePipeline pipelines on AWS using Terraform.\n\nCreate an AWS CodePipeline pipeline using Terraform."
-},
-"40": {
-"number": "40",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Cognito user pool using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Cognito user pools on AWS using Terraform.\n\nDeploy an AWS Cognito user pool using Terraform."
-},
-"41": {
-"number": "41",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS SNS subscription using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SNS subscriptions on AWS using Terraform.\n\nProvision an AWS SNS subscription using Terraform."
-},
-"42": {
-"number": "42",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS ECS task definition using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of ECS task definitions on AWS using Terraform.\n\nCreate an AWS ECS task definition using Terraform."
-},
-"43": {
-"number": "43",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Glue job with a Python shell script using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue jobs with Python shell scripts on AWS using Terraform.\n\nDeploy an AWS Glue job with a Python shell script using Terraform."
-},
-"44": {
-"number": "44",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS EC2 instance with EBS volume using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of EC2 instances with EBS volumes on AWS using Terraform.\n\nProvision an AWS EC2 instance with EBS volume using Terraform."
-},
-"45": {
-"number": "45",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Athena query execution using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Athena query executions on AWS using Terraform.\n\nCreate an AWS Athena query execution using Terraform."
-},
-"46": {
-"number": "46",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DataSync task using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DataSync tasks on AWS using Terraform.\n\nDeploy an AWS DataSync task using Terraform."
-},
-"47": {
-"number": "47",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Redshift cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Redshift clusters on AWS using Terraform.\n\nProvision an AWS Redshift cluster using Terraform."
-},
-"48": {
-"number": "48",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS KMS key alias using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of KMS key aliases on AWS using Terraform.\n\nCreate an AWS KMS key alias using Terraform."
-},
-"49": {
-"number": "49",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS AppMesh virtual node using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of AppMesh virtual nodes on AWS using Terraform.\n\nDeploy an AWS AppMesh virtual node using Terraform."
-},
-"50": {
-"number": "50",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Lambda function with a VPC using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lambda functions with VPC configurations on AWS using Terraform.\n\nProvision an AWS Lambda function with a VPC using Terraform."
-},
-"51": {
-"number": "51",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS S3 bucket policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of S3 bucket policies on AWS using Terraform.\n\nCreate an AWS S3 bucket policy using Terraform."
-},
-"52": {
-"number": "52",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS AppStream 2.0 stack using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of AppStream 2.0 stacks on AWS using Terraform.\n\nDeploy an AWS AppStream 2.0 stack using Terraform."
-},
-"53": {
-"number": "53",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Glue catalog database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue catalog databases on AWS using Terraform.\n\nProvision an AWS Glue catalog database using Terraform."
-},
-"54": {
-"number": "54",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CodeDeploy application using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodeDeploy applications on AWS using Terraform.\n\nCreate an AWS CodeDeploy application using Terraform."
-},
-"55": {
-"number": "55",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WorkSpaces directory using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WorkSpaces directories on AWS using Terraform.\n\nDeploy an AWS WorkSpaces directory using Terraform."
-},
-"56": {
-"number": "56",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS SSM (Systems Manager) parameter using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SSM parameters on AWS using Terraform.\n\nProvision an AWS SSM parameter using Terraform."
-},
-"57": {
-"number": "57",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation change set using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFormation change sets on AWS using Terraform.\n\nCreate an AWS CloudFormation change set using Terraform."
-},
-"58": {
-"number": "58",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Transfer Family server using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Transfer Family servers on AWS using Terraform.\n\nDeploy an AWS Transfer Family server using Terraform."
-},
-"59": {
-"number": "59",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Auto Scaling group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Auto Scaling groups on AWS using Terraform.\n\nProvision an AWS Auto Scaling group using Terraform."
-},
-"60": {
-"number": "60",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFront distribution with custom SSL/TLS certificate using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFront distributions with custom SSL/TLS certificates on AWS using Terraform.\n\nCreate an AWS CloudFront distribution with custom SSL/TLS certificate using Terraform."
-},
-"61": {
-"number": "61",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Network Firewall rule group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Network Firewall rule groups on AWS using Terraform.\n\nDeploy an AWS Network Firewall rule group using Terraform."
-},
-"62": {
-"number": "62",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Elastic Load Balancer using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Load Balancers on AWS using Terraform.\n\nProvision an AWS Elastic Load Balancer using Terraform."
-},
-"63": {
-"number": "63",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Glue connection using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Glue connections on AWS using Terraform.\n\nCreate an AWS Glue connection using Terraform."
-},
-"64": {
-"number": "64",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway REST API using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateway REST APIs on AWS using Terraform.\n\nDeploy an AWS API Gateway REST API using Terraform."
-},
-"65": {
-"number": "65",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with object lock enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with object lock enabled on AWS using Terraform.\n\nProvision an AWS S3 bucket with object lock enabled using Terraform."
-},
-"66": {
-"number": "66",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Transfer Family user using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Transfer Family users on AWS using Terraform.\n\nCreate an AWS Transfer Family user using Terraform."
-},
-"67": {
-"number": "67",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elastic Beanstalk application version using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Beanstalk application versions on AWS using Terraform.\n\nDeploy an AWS Elastic Beanstalk application version using Terraform."
-},
-"68": {
-"number": "68",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Glue development endpoint using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue development endpoints on AWS using Terraform.\n\nProvision an AWS Glue development endpoint using Terraform."
-},
-"69": {
-"number": "69",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFormation stack policies on AWS using Terraform.\n\nCreate an AWS CloudFormation stack policy using Terraform."
-},
-"70": {
-"number": "70",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DocumentDB cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DocumentDB clusters on AWS using Terraform.\n\nDeploy an AWS DocumentDB cluster using Terraform."
-},
-"71": {
-"number": "71",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Elasticache cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elasticache clusters on AWS using Terraform.\n\nProvision an AWS Elasticache cluster using Terraform."
-},
-"72": {
-"number": "72",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS API Gateway custom domain using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of API Gateway custom domains on AWS using Terraform.\n\nCreate an AWS API Gateway custom domain using Terraform."
-},
-"73": {
-"number": "73",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WAFv2 (Web Application Firewall) rule group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAFv2 rule groups on AWS using Terraform.\n\nDeploy an AWS WAFv2 rule group using Terraform."
-},
-"74": {
-"number": "74",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Transfer Family server with custom identity provider using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Transfer Family servers with custom identity providers on AWS using Terraform.\n\nProvision an AWS Transfer Family server with custom identity provider using Terraform."
-},
-"75": {
-"number": "75",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CodeBuild project using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodeBuild projects on AWS using Terraform.\n\nCreate an AWS CodeBuild project using Terraform."
-},
-"76": {
-"number": "76",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFront distribution with WAFv2 integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with WAFv2 integration on AWS using Terraform.\n\nDeploy an AWS CloudFront distribution with WAFv2 integration using Terraform."
-},
-"77": {
-"number": "77",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Aurora cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Aurora clusters on AWS using Terraform.\n\nProvision an AWS Aurora cluster using Terraform."
-},
-"78": {
-"number": "78",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS DynamoDB global table using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of DynamoDB global tables on AWS using Terraform.\n\nCreate an AWS DynamoDB global table using Terraform."
-},
-"79": {
-"number": "79",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway REST API with Lambda proxy integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateway REST APIs with Lambda proxy integration on AWS using Terraform.\n\nDeploy an AWS API Gateway REST API with Lambda proxy integration using Terraform."
-},
-"80": {
-"number": "80",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudFront distribution with Lambda@Edge integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with Lambda@Edge integration on AWS using Terraform.\n\nProvision an AWS CloudFront distribution with Lambda@Edge integration using Terraform."
-},
-"81": {
-"number": "81",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS IoT thing using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of IoT things on AWS using Terraform.\n\nCreate an AWS IoT thing using Terraform."
-},
-"82": {
-"number": "82",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS MediaStore container using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaStore containers on AWS using Terraform.\n\nDeploy an AWS MediaStore container using Terraform."
-},
-"83": {
-"number": "83",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS DataSync agent using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DataSync agents on AWS using Terraform.\n\nProvision an AWS DataSync agent using Terraform."
-},
-"84": {
-"number": "84",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS ECR (Elastic Container Registry) lifecycle policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of ECR lifecycle policies on AWS using Terraform.\n\nCreate an AWS ECR lifecycle policy using Terraform."
-},
-"85": {
-"number": "85",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS IoT policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of IoT policies on AWS using Terraform.\n\nDeploy an AWS IoT policy using Terraform."
-},
-"86": {
-"number": "86",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS Amplify app using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Amplify apps on AWS using Terraform.\n\nProvision an AWS Amplify app using Terraform."
-},
-"87": {
-"number": "87",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS SQS (Simple Queue Service) queue policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of SQS queue policies on AWS using Terraform.\n\nCreate an AWS SQS queue policy using Terraform."
-},
-"88": {
-"number": "88",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elemental MediaPackage channel using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaPackage channels on AWS using Terraform.\n\nDeploy an AWS Elemental MediaPackage channel using Terraform."
-},
-"89": {
-"number": "89",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS EKS (Elastic Kubernetes Service) cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of EKS clusters on AWS using Terraform.\n\nProvision an AWS EKS cluster using Terraform."
-},
-"90": {
-"number": "90",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS AppConfig deployment strategy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of AppConfig deployment strategies on AWS using Terraform.\n\nCreate an AWS AppConfig deployment strategy using Terraform."
-},
-"91": {
-"number": "91",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DMS (Database Migration Service) replication instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DMS replication instances on AWS using Terraform.\n\nDeploy an AWS DMS replication instance using Terraform."
-},
-"92": {
-"number": "92",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS WAF (Web Application Firewall) WebACL using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAF WebACLs on AWS using Terraform.\n\nProvision an AWS WAF WebACL using Terraform."
-},
-"93": {
-"number": "93",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack using Terraform to deploy an AWS Lambda function.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stacks with Lambda functions on AWS using Terraform.\n\nCreate an AWS CloudFormation stack using Terraform to deploy an AWS Lambda function."
-},
-"94": {
-"number": "94",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lake Formation resource using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lake Formation resources on AWS using Terraform.\n\nDeploy an AWS Lake Formation resource using Terraform."
-},
-"95": {
-"number": "95",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS RDS (Relational Database Service) SQL Server DB instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of RDS SQL Server DB instances on AWS using Terraform.\n\nProvision an AWS RDS SQL Server DB instance using Terraform."
-},
-"96": {
-"number": "96",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS SES (Simple Email Service) identity policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of SES identity policies on AWS using Terraform.\n\nCreate an AWS SES identity policy using Terraform."
-},
-"97": {
-"number": "97",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Fargate service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Fargate services on AWS using Terraform.\n\nDeploy an AWS Fargate service using Terraform."
-},
-"98": {
-"number": "98",
-"question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with static website hosting using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with static website hosting on AWS using Terraform.\n\nProvision an AWS S3 bucket with static website hosting using Terraform."
-},
-"99": {
-"number": "99",
-"question": "# Lab Objective\nThe objective of this lab is to create an AWS Step Functions state machine using Terraform to integrate with an AWS Lambda function.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Step Functions state machines on AWS using Terraform and integrate them with Lambda functions.\n\nCreate an AWS Step Functions state machine using Terraform to integrate with an AWS Lambda function."
-},
-"100": {
-"number": "100",
-"question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elemental MediaConvert job template using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaConvert job templates on AWS using Terraform.\n\nDeploy an AWS Elemental MediaConvert job template using Terraform."
-}
+    "01": {
+        "number": "01",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS EC2 instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to use Terraform to automate the deployment of EC2 instances on AWS.\n\nProvision an AWS EC2 instance using Terraform."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Lab Objective\nThe objective of this lab is to create an S3 bucket with versioning enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage AWS S3 buckets and enable versioning using Terraform.\n\nCreate an S3 bucket with versioning enabled using Terraform."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lambda function using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lambda functions on AWS using Terraform.\n\nDeploy an AWS Lambda function using Terraform."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS VPC (Virtual Private Cloud) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to define and deploy VPC configurations on AWS using Terraform.\n\nProvision an AWS VPC using Terraform."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS RDS (Relational Database Service) instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of RDS instances on AWS using Terraform.\n\nCreate an AWS RDS instance using Terraform."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS ECS (Elastic Container Service) cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to use Terraform to define and deploy ECS clusters on AWS.\n\nDeploy an AWS ECS cluster using Terraform."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS IAM (Identity and Access Management) role using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of IAM roles on AWS using Terraform.\n\nCreate an AWS IAM role using Terraform."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with lifecycle policies using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to manage S3 bucket lifecycle policies using Terraform.\n\nProvision an AWS S3 bucket with lifecycle policies using Terraform."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateways on AWS using Terraform.\n\nDeploy an AWS API Gateway using Terraform."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Route 53 DNS record using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the management of DNS records on AWS Route 53 using Terraform.\n\nProvision an AWS Route 53 DNS record using Terraform."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFront distribution using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions on AWS using Terraform.\n\nCreate an AWS CloudFront distribution using Terraform."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS SQS (Simple Queue Service) queue using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SQS queues on AWS using Terraform.\n\nProvision an AWS SQS queue using Terraform."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS SNS (Simple Notification Service) topic using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SNS topics on AWS using Terraform.\n\nDeploy an AWS SNS topic using Terraform."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudWatch dashboard using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudWatch dashboards on AWS using Terraform.\n\nCreate an AWS CloudWatch dashboard using Terraform."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with encryption enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of encrypted S3 buckets on AWS using Terraform.\n\nProvision an AWS S3 bucket with encryption enabled using Terraform."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DynamoDB table using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DynamoDB tables on AWS using Terraform.\n\nDeploy an AWS DynamoDB table using Terraform."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Lambda function triggered by S3 events using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Lambda functions triggered by S3 events using Terraform.\n\nCreate an AWS Lambda function triggered by S3 events using Terraform."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS ECS Fargate service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of ECS Fargate services on AWS using Terraform.\n\nProvision an AWS ECS Fargate service using Terraform."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Glue job using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue jobs on AWS using Terraform.\n\nDeploy an AWS Glue job using Terraform."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudTrail trail using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudTrail trails on AWS using Terraform.\n\nProvision an AWS CloudTrail trail using Terraform."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Kinesis stream using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Kinesis streams on AWS using Terraform.\n\nCreate an AWS Kinesis stream using Terraform."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway with Lambda integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateways with Lambda integration on AWS using Terraform.\n\nDeploy an AWS API Gateway with Lambda integration using Terraform."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with cross-region replication using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with cross-region replication on AWS using Terraform.\n\nProvision an AWS S3 bucket with cross-region replication using Terraform."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Elastic Beanstalk application using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Beanstalk applications on AWS using Terraform.\n\nCreate an AWS Elastic Beanstalk application using Terraform."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFormation stack using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stacks on AWS using Terraform.\n\nDeploy an AWS CloudFormation stack using Terraform."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS ECR (Elastic Container Registry) repository using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of ECR repositories on AWS using Terraform.\n\nProvision an AWS ECR repository using Terraform."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudWatch alarm using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudWatch alarms on AWS using Terraform.\n\nCreate an AWS CloudWatch alarm using Terraform."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS S3 bucket with access logging enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with access logging enabled on AWS using Terraform.\n\nDeploy an AWS S3 bucket with access logging enabled using Terraform."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudFront distribution with SSL/TLS certificate using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with SSL/TLS certificates on AWS using Terraform.\n\nProvision an AWS CloudFront distribution with SSL/TLS certificate using Terraform."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Neptune graph database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Neptune graph databases on AWS using Terraform.\n\nCreate an AWS Neptune graph database using Terraform."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WAF (Web Application Firewall) using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAF configurations on AWS using Terraform.\n\nDeploy an AWS WAF using Terraform."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Secrets Manager secret using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Secrets Manager secrets on AWS using Terraform.\n\nProvision an AWS Secrets Manager secret using Terraform."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack set using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stack sets on AWS using Terraform.\n\nCreate an AWS CloudFormation stack set using Terraform."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Batch compute environment using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Batch compute environments on AWS using Terraform.\n\nDeploy an AWS Batch compute environment using Terraform."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS KMS (Key Management Service) key using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of KMS keys on AWS using Terraform.\n\nProvision an AWS KMS key using Terraform."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Glue crawler using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Glue crawlers for data discovery on AWS using Terraform.\n\nCreate an AWS Glue crawler using Terraform."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Step Functions state machine using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Step Functions state machines on AWS using Terraform.\n\nDeploy an AWS Step Functions state machine using Terraform."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Direct Connect connection using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Direct Connect connections on AWS using Terraform.\n\nProvision an AWS Direct Connect connection using Terraform."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CodePipeline pipeline using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodePipeline pipelines on AWS using Terraform.\n\nCreate an AWS CodePipeline pipeline using Terraform."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Cognito user pool using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Cognito user pools on AWS using Terraform.\n\nDeploy an AWS Cognito user pool using Terraform."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS SNS subscription using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SNS subscriptions on AWS using Terraform.\n\nProvision an AWS SNS subscription using Terraform."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS ECS task definition using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of ECS task definitions on AWS using Terraform.\n\nCreate an AWS ECS task definition using Terraform."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Glue job with a Python shell script using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue jobs with Python shell scripts on AWS using Terraform.\n\nDeploy an AWS Glue job with a Python shell script using Terraform."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS EC2 instance with EBS volume using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of EC2 instances with EBS volumes on AWS using Terraform.\n\nProvision an AWS EC2 instance with EBS volume using Terraform."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Athena query execution using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Athena query executions on AWS using Terraform.\n\nCreate an AWS Athena query execution using Terraform."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DataSync task using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DataSync tasks on AWS using Terraform.\n\nDeploy an AWS DataSync task using Terraform."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Redshift cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Redshift clusters on AWS using Terraform.\n\nProvision an AWS Redshift cluster using Terraform."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS KMS key alias using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of KMS key aliases on AWS using Terraform.\n\nCreate an AWS KMS key alias using Terraform."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS AppMesh virtual node using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of AppMesh virtual nodes on AWS using Terraform.\n\nDeploy an AWS AppMesh virtual node using Terraform."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Lambda function with a VPC using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lambda functions with VPC configurations on AWS using Terraform.\n\nProvision an AWS Lambda function with a VPC using Terraform."
+    },
+    "51": {
+        "number": "51",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS S3 bucket policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of S3 bucket policies on AWS using Terraform.\n\nCreate an AWS S3 bucket policy using Terraform."
+    },
+    "52": {
+        "number": "52",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS AppStream 2.0 stack using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of AppStream 2.0 stacks on AWS using Terraform.\n\nDeploy an AWS AppStream 2.0 stack using Terraform."
+    },
+    "53": {
+        "number": "53",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Glue catalog database using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue catalog databases on AWS using Terraform.\n\nProvision an AWS Glue catalog database using Terraform."
+    },
+    "54": {
+        "number": "54",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CodeDeploy application using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodeDeploy applications on AWS using Terraform.\n\nCreate an AWS CodeDeploy application using Terraform."
+    },
+    "55": {
+        "number": "55",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WorkSpaces directory using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WorkSpaces directories on AWS using Terraform.\n\nDeploy an AWS WorkSpaces directory using Terraform."
+    },
+    "56": {
+        "number": "56",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS SSM (Systems Manager) parameter using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of SSM parameters on AWS using Terraform.\n\nProvision an AWS SSM parameter using Terraform."
+    },
+    "57": {
+        "number": "57",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation change set using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFormation change sets on AWS using Terraform.\n\nCreate an AWS CloudFormation change set using Terraform."
+    },
+    "58": {
+        "number": "58",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Transfer Family server using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Transfer Family servers on AWS using Terraform.\n\nDeploy an AWS Transfer Family server using Terraform."
+    },
+    "59": {
+        "number": "59",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Auto Scaling group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Auto Scaling groups on AWS using Terraform.\n\nProvision an AWS Auto Scaling group using Terraform."
+    },
+    "60": {
+        "number": "60",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFront distribution with custom SSL/TLS certificate using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFront distributions with custom SSL/TLS certificates on AWS using Terraform.\n\nCreate an AWS CloudFront distribution with custom SSL/TLS certificate using Terraform."
+    },
+    "61": {
+        "number": "61",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Network Firewall rule group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Network Firewall rule groups on AWS using Terraform.\n\nDeploy an AWS Network Firewall rule group using Terraform."
+    },
+    "62": {
+        "number": "62",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Elastic Load Balancer using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Load Balancers on AWS using Terraform.\n\nProvision an AWS Elastic Load Balancer using Terraform."
+    },
+    "63": {
+        "number": "63",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Glue connection using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Glue connections on AWS using Terraform.\n\nCreate an AWS Glue connection using Terraform."
+    },
+    "64": {
+        "number": "64",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway REST API using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateway REST APIs on AWS using Terraform.\n\nDeploy an AWS API Gateway REST API using Terraform."
+    },
+    "65": {
+        "number": "65",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with object lock enabled using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with object lock enabled on AWS using Terraform.\n\nProvision an AWS S3 bucket with object lock enabled using Terraform."
+    },
+    "66": {
+        "number": "66",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Transfer Family user using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Transfer Family users on AWS using Terraform.\n\nCreate an AWS Transfer Family user using Terraform."
+    },
+    "67": {
+        "number": "67",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elastic Beanstalk application version using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elastic Beanstalk application versions on AWS using Terraform.\n\nDeploy an AWS Elastic Beanstalk application version using Terraform."
+    },
+    "68": {
+        "number": "68",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Glue development endpoint using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Glue development endpoints on AWS using Terraform.\n\nProvision an AWS Glue development endpoint using Terraform."
+    },
+    "69": {
+        "number": "69",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CloudFormation stack policies on AWS using Terraform.\n\nCreate an AWS CloudFormation stack policy using Terraform."
+    },
+    "70": {
+        "number": "70",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DocumentDB cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DocumentDB clusters on AWS using Terraform.\n\nDeploy an AWS DocumentDB cluster using Terraform."
+    },
+    "71": {
+        "number": "71",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Elasticache cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Elasticache clusters on AWS using Terraform.\n\nProvision an AWS Elasticache cluster using Terraform."
+    },
+    "72": {
+        "number": "72",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS API Gateway custom domain using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of API Gateway custom domains on AWS using Terraform.\n\nCreate an AWS API Gateway custom domain using Terraform."
+    },
+    "73": {
+        "number": "73",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS WAFv2 (Web Application Firewall) rule group using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAFv2 rule groups on AWS using Terraform.\n\nDeploy an AWS WAFv2 rule group using Terraform."
+    },
+    "74": {
+        "number": "74",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Transfer Family server with custom identity provider using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Transfer Family servers with custom identity providers on AWS using Terraform.\n\nProvision an AWS Transfer Family server with custom identity provider using Terraform."
+    },
+    "75": {
+        "number": "75",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CodeBuild project using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of CodeBuild projects on AWS using Terraform.\n\nCreate an AWS CodeBuild project using Terraform."
+    },
+    "76": {
+        "number": "76",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS CloudFront distribution with WAFv2 integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with WAFv2 integration on AWS using Terraform.\n\nDeploy an AWS CloudFront distribution with WAFv2 integration using Terraform."
+    },
+    "77": {
+        "number": "77",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Aurora cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Aurora clusters on AWS using Terraform.\n\nProvision an AWS Aurora cluster using Terraform."
+    },
+    "78": {
+        "number": "78",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS DynamoDB global table using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of DynamoDB global tables on AWS using Terraform.\n\nCreate an AWS DynamoDB global table using Terraform."
+    },
+    "79": {
+        "number": "79",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS API Gateway REST API with Lambda proxy integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of API Gateway REST APIs with Lambda proxy integration on AWS using Terraform.\n\nDeploy an AWS API Gateway REST API with Lambda proxy integration using Terraform."
+    },
+    "80": {
+        "number": "80",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS CloudFront distribution with Lambda@Edge integration using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFront distributions with Lambda@Edge integration on AWS using Terraform.\n\nProvision an AWS CloudFront distribution with Lambda@Edge integration using Terraform."
+    },
+    "81": {
+        "number": "81",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS IoT thing using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of IoT things on AWS using Terraform.\n\nCreate an AWS IoT thing using Terraform."
+    },
+    "82": {
+        "number": "82",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS MediaStore container using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaStore containers on AWS using Terraform.\n\nDeploy an AWS MediaStore container using Terraform."
+    },
+    "83": {
+        "number": "83",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS DataSync agent using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DataSync agents on AWS using Terraform.\n\nProvision an AWS DataSync agent using Terraform."
+    },
+    "84": {
+        "number": "84",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS ECR (Elastic Container Registry) lifecycle policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of ECR lifecycle policies on AWS using Terraform.\n\nCreate an AWS ECR lifecycle policy using Terraform."
+    },
+    "85": {
+        "number": "85",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS IoT policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of IoT policies on AWS using Terraform.\n\nDeploy an AWS IoT policy using Terraform."
+    },
+    "86": {
+        "number": "86",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS Amplify app using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Amplify apps on AWS using Terraform.\n\nProvision an AWS Amplify app using Terraform."
+    },
+    "87": {
+        "number": "87",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS SQS (Simple Queue Service) queue policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of SQS queue policies on AWS using Terraform.\n\nCreate an AWS SQS queue policy using Terraform."
+    },
+    "88": {
+        "number": "88",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elemental MediaPackage channel using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaPackage channels on AWS using Terraform.\n\nDeploy an AWS Elemental MediaPackage channel using Terraform."
+    },
+    "89": {
+        "number": "89",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS EKS (Elastic Kubernetes Service) cluster using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of EKS clusters on AWS using Terraform.\n\nProvision an AWS EKS cluster using Terraform."
+    },
+    "90": {
+        "number": "90",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS AppConfig deployment strategy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of AppConfig deployment strategies on AWS using Terraform.\n\nCreate an AWS AppConfig deployment strategy using Terraform."
+    },
+    "91": {
+        "number": "91",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS DMS (Database Migration Service) replication instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of DMS replication instances on AWS using Terraform.\n\nDeploy an AWS DMS replication instance using Terraform."
+    },
+    "92": {
+        "number": "92",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS WAF (Web Application Firewall) WebACL using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of WAF WebACLs on AWS using Terraform.\n\nProvision an AWS WAF WebACL using Terraform."
+    },
+    "93": {
+        "number": "93",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS CloudFormation stack using Terraform to deploy an AWS Lambda function.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of CloudFormation stacks with Lambda functions on AWS using Terraform.\n\nCreate an AWS CloudFormation stack using Terraform to deploy an AWS Lambda function."
+    },
+    "94": {
+        "number": "94",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Lake Formation resource using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Lake Formation resources on AWS using Terraform.\n\nDeploy an AWS Lake Formation resource using Terraform."
+    },
+    "95": {
+        "number": "95",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS RDS (Relational Database Service) SQL Server DB instance using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of RDS SQL Server DB instances on AWS using Terraform.\n\nProvision an AWS RDS SQL Server DB instance using Terraform."
+    },
+    "96": {
+        "number": "96",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS SES (Simple Email Service) identity policy using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of SES identity policies on AWS using Terraform.\n\nCreate an AWS SES identity policy using Terraform."
+    },
+    "97": {
+        "number": "97",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Fargate service using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Fargate services on AWS using Terraform.\n\nDeploy an AWS Fargate service using Terraform."
+    },
+    "98": {
+        "number": "98",
+        "question": "# Lab Objective\nThe objective of this lab is to provision an AWS S3 bucket with static website hosting using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of S3 buckets with static website hosting on AWS using Terraform.\n\nProvision an AWS S3 bucket with static website hosting using Terraform."
+    },
+    "99": {
+        "number": "99",
+        "question": "# Lab Objective\nThe objective of this lab is to create an AWS Step Functions state machine using Terraform to integrate with an AWS Lambda function.\n\n# Outcome\nAfter completing this lab, you should be able to automate the creation of Step Functions state machines on AWS using Terraform and integrate them with Lambda functions.\n\nCreate an AWS Step Functions state machine using Terraform to integrate with an AWS Lambda function."
+    },
+    "100": {
+        "number": "100",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy an AWS Elemental MediaConvert job template using Terraform.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of MediaConvert job templates on AWS using Terraform.\n\nDeploy an AWS Elemental MediaConvert job template using Terraform."
+    }
 }
