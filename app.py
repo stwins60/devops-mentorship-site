@@ -18,7 +18,6 @@ CORS(app)
 app.config['SECRET_KEY'] = secrets.token_hex(16)
 
 headers = {
-    # 'Content-Type': 'text/html',
     'charset': 'utf-8',
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
@@ -27,21 +26,12 @@ headers = {
 
 sentry_sdk.init(
     dsn="https://a8a5fcb0b16a61bc009c9d3d2c11ea16@sentry.africantech.dev/6",
-    # Set traces_sample_rate to 1.0 to capture 100%
-    # of transactions for performance monitoring.
     traces_sample_rate=1.0,
-    # Set profiles_sample_rate to 1.0 to profile 100%
-    # of sampled transactions.
-    # We recommend adjusting this value in production.
     profiles_sample_rate=1.0,
-    integrations = [
+    integrations=[
         AsyncioIntegration(),
-        FlaskIntegration(
-            transaction_style="url"
-        ),
-        AioHttpIntegration(
-            transaction_style="method_and_path_pattern"
-        )
+        FlaskIntegration(transaction_style="url"),
+        AioHttpIntegration(transaction_style="method_and_path_pattern")
     ]
 )
 
@@ -55,19 +45,19 @@ class CourseForm(FlaskForm):
 
 with open('shellscript.json', 'r') as file:
     shellscript = json.load(file)
-    
+
 with open('python.json', 'r') as file:
     python = json.load(file)
-    
+
 with open('docker.json', 'r') as file:
     docker = json.load(file)
-    
+
 with open('kubernetes.json', 'r') as file:
     kubernetes = json.load(file)
-    
+
 with open('aws.json', 'r') as file:
     aws = json.load(file)
-    
+
 with open('terraform.json', 'r') as file:
     terraform = json.load(file)
 
@@ -80,34 +70,13 @@ with open('jenkins.json', 'r') as file:
 with open('ansible.json', 'r') as file:
     ansible = json.load(file)
 
-
-
 @app.route('/')
 def index():
     courses = {
         'Linux': [
-            '00',
-            '01',
-            '02',
-            '03',
-            '04',
-            '05',
-            '06',
-            '07',
-            '08',
-            '09',
-            '10',
-            '11',
-            '12',
-            '13',
-            '14',
-            '15',
-            '16',
-            '17',
-            '18',
-            '19',
-            '20',
-            '21'
+            '00', '01', '02', '03', '04', '05', '06', '07', '08', '09',
+            '10', '11', '12', '13', '14', '15', '16', '17', '18', '19',
+            '20', '21'
         ],
         'Bash-Scripting': list(shellscript.keys()),
         'Python': list(python.keys()),
@@ -121,7 +90,30 @@ def index():
     }
     return render_template('index.html', courses=courses)
 
-# def cour
+@app.route('/course/<course_name>/lab/<lab_number>')
+def lab(course_name, lab_number):
+    data = {
+        'Linux': lambda lab_number: requests.get(f"https://raw.githubusercontent.com/livialima/linuxupskillchallenge/master/docs/{lab_number}.md").text,
+        'Bash-Scripting': lambda lab_number: shellscript.get(lab_number, {}).get('question', "Lab not found"),
+        'Python': lambda lab_number: python.get(lab_number, {}).get('question', "Lab not found"),
+        'Docker': lambda lab_number: docker.get(lab_number, {}).get('question', "Lab not found"),
+        'Kubernetes': lambda lab_number: kubernetes.get(lab_number, {}).get('question', "Lab not found"),
+        'AWS': lambda lab_number: aws.get(lab_number, {}).get('question', "Lab not found"),
+        'Terraform': lambda lab_number: terraform.get(lab_number, {}).get('question', "Lab not found"),
+        'CICD': lambda lab_number: cicd.get(lab_number, {}).get('question', "Lab not found"),
+        'Jenkins': lambda lab_number: jenkins.get(lab_number, {}).get('question', "Lab not found"),
+        'Ansible': lambda lab_number: ansible.get(lab_number, {}).get('question', "Lab not found")
+    }
+    
+    if course_name not in data:
+        return "Course not found", 404
+    
+    content = data[course_name](lab_number)
+    if not content:
+        return "Lab not found", 404
+
+    html_content = markdown.markdown(content)
+    return render_template('lab.html', course_name=course_name, lab_number=lab_number, html_content=html_content)
 
 @app.route('/courses/search/', methods=['GET', 'POST'])
 def course_search():
@@ -131,7 +123,6 @@ def course_search():
     selected_course = "Linux"
     html_content = ""
     result = ""
-    
     try:
         if request.method == 'POST':
             lab_number = request.form.get('lab-number')
@@ -185,9 +176,11 @@ def course_search():
     except Exception as e:
         print(e)
         html_content = markdown.markdown("<h1>Lab not found</h1>")
+  
       
-          
     return render_template('course_search.html', choices=choices, selected_course=selected_course, html_content=html_content, result=result)
+
+    
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
@@ -212,7 +205,6 @@ def contact():
                 return render_template('contact.html', error='Something went wrong', success=msg)
     return render_template('contact.html')
 
-
 @app.after_request
 def add_header(response):
     for key, value in headers.items():
@@ -230,3 +222,4 @@ def internal_server_error(e):
 @app.errorhandler(504)
 def gateway_timeout(e):
     return render_template('504.html'), 504
+

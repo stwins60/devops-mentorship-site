@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ course_name }} Lab {{ lab_number }}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>{{ course_name }} Lab {{ lab_number }}</h1>
+        <div class="lab-content">
+            {{ html_content|safe }}
+        </div>
+        <a href="{{ url_for('index') }}" class="btn btn-primary mt-3">Back to Courses</a>
+    </div>
+</body>
+</html>
