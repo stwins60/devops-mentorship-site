@@ -58,7 +58,7 @@
                                 <ul>
                                     {% for lab in labs %}
                                     <li>
-                                        <a href="{{ url_for('lab', course_name=course, lab_number=lab) }}">{{ lab }}</a>
+                                        <a href="{{ url_for('lab', course_name=course, lab_number=lab) }}" target="_blank">{{ lab }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
