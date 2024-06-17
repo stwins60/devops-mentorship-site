@@ -57,7 +57,9 @@
                             <div class="card-body">
                                 <ul>
                                     {% for lab in labs %}
-                                    <li>{{ lab }}</li>
+                                    <li>
+                                        <a href="{{ url_for('lab', course_name=course, lab_number=lab) }}">{{ lab }}</a>
+                                    </li>
                                     {% endfor %}
                                 </ul>
                             </div>
