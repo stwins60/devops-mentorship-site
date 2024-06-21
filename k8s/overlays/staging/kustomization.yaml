@@ -6,6 +6,10 @@ patches:
   target:
     kind: Service
     name: mentorship-lab-service
+- path: deploy-patch.yaml
+  target:
+    kind: Deployment
+    name: mentorship-lab-deployment
 namespace: mentorship
 replicas:
 - count: 2

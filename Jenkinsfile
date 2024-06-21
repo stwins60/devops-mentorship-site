@@ -43,14 +43,6 @@ pipeline {
                 }
             }
         }
-        // stage('Pytest') {
-        //     steps {
-        //         script {
-        //             sh "pip install -r requirements.txt --no-cache-dir"
-        //             sh "python3 -m pytest --cov=app --cov-report=xml --cov-report=html"
-        //         }
-        //     }
-        // }
         stage('OWASP') {
             steps {
                 dependencyCheck additionalArguments: "--scan ./ --disableYarnAudit --disableNodeAudit --nvdApiKey ${env.NVDAPIKEY}", odcInstallation: 'DP-Check'
