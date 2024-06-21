@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>504 Gateway Timeout</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://sentry.africantech.dev/js-sdk-loader/a8a5fcb0b16a61bc009c9d3d2c11ea16.min.js"
+        crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .error-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .error-heading {
+      font-size: 72px;
+      color: #dc3545;
+      margin-bottom: 20px;
+    }
+    .error-message {
+      font-size: 24px;
+      color: #495057;
+      margin-bottom: 20px;
+    }
+    .error-link {
+      font-size: 18px;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 error-container">
+        <h1 class="error-heading">504</h1>
+        <p class="error-message">Oops! Gateway Timeout.</p>
+        <a href="{{ url_for('index') }}" class="error-link">Go to Home</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

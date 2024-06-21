@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mentorship-lab-deployment
+  namespace: mentorship
+spec:
+  selector:
+    matchLabels:
+      app: mentorship-lab-deployment
+  template:
+    metadata:
+      labels:
+        app: mentorship-lab-deployment
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: custom-label
+                    operator: In
+                    values:
+                      - k8s
+      containers:
+      - name: mentorship-lab-deployment
+        image: idrisniyi94/devops-mentorship-site:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 5000

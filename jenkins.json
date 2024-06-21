@@ -1,0 +1,202 @@
+{
+    "01": {
+        "number": "01",
+        "question": "# Lab Objective\nThe objective of this lab is to set up a Jenkins server on an AWS EC2 instance.\n\n# Outcome\nAfter completing this lab, you should be able to deploy and configure a Jenkins server on AWS EC2.\n\nSet up a Jenkins server on an AWS EC2 instance."
+    },
+    "02": {
+        "number": "02",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Java application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Java application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Java application."
+    },
+    "03": {
+        "number": "03",
+        "question": "# Lab Objective\nThe objective of this lab is to configure Jenkins to run unit tests using JUnit.\n\n# Outcome\nAfter completing this lab, you should be able to integrate JUnit tests into your Jenkins pipeline.\n\nConfigure Jenkins to run unit tests using JUnit."
+    },
+    "04": {
+        "number": "04",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using SonarQube and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using SonarQube and Jenkins.\n\nSet up automated code quality checks using SonarQube and Jenkins."
+    },
+    "05": {
+        "number": "05",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a web application to AWS Elastic Beanstalk using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of web applications to AWS Elastic Beanstalk using Jenkins.\n\nDeploy a web application to AWS Elastic Beanstalk using Jenkins."
+    },
+    "06": {
+        "number": "06",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated notifications using Jenkins and Slack.\n\n# Outcome\nAfter completing this lab, you should be able to configure Jenkins to send build notifications to a Slack channel.\n\nSet up automated notifications using Jenkins and Slack."
+    },
+    "07": {
+        "number": "07",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Python application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Python application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Python application."
+    },
+    "08": {
+        "number": "08",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated functional testing using Selenium and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate functional testing using Selenium and Jenkins.\n\nSet up automated functional testing using Selenium and Jenkins."
+    },
+    "09": {
+        "number": "09",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Node.js application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Node.js application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Node.js application."
+    },
+    "10": {
+        "number": "10",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to AWS ECS using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to AWS ECS using Jenkins.\n\nDeploy a Docker container to AWS ECS using Jenkins."
+    },
+    "11": {
+        "number": "11",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated integration testing using Postman and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate integration testing using Postman and Jenkins.\n\nSet up automated integration testing using Postman and Jenkins."
+    },
+    "12": {
+        "number": "12",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a C# application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a C# application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a C# application."
+    },
+    "13": {
+        "number": "13",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using Checkstyle and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using Checkstyle and Jenkins.\n\nSet up automated code quality checks using Checkstyle and Jenkins."
+    },
+    "14": {
+        "number": "14",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Node.js application to Azure App Service using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Node.js applications to Azure App Service using Jenkins.\n\nDeploy a Node.js application to Azure App Service using Jenkins."
+    },
+    "15": {
+        "number": "15",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated security testing using OWASP ZAP and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate security testing using OWASP ZAP and Jenkins.\n\nSet up automated security testing using OWASP ZAP and Jenkins."
+    },
+    "16": {
+        "number": "16",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Ruby application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Ruby application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Ruby application."
+    },
+    "17": {
+        "number": "17",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Python application to Google App Engine using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Python applications to Google App Engine using Jenkins.\n\nDeploy a Python application to Google App Engine using Jenkins."
+    },
+    "18": {
+        "number": "18",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated performance testing using Gatling and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate performance testing using Gatling and Jenkins.\n\nSet up automated performance testing using Gatling and Jenkins."
+    },
+    "19": {
+        "number": "19",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Go application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Go application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Go application."
+    },
+    "20": {
+        "number": "20",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to Azure Kubernetes Service using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to Azure Kubernetes Service using Jenkins.\n\nDeploy a Docker container to Azure Kubernetes Service using Jenkins."
+    },
+    "21": {
+        "number": "21",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated unit testing using PyTest and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate unit testing of Python applications using PyTest and Jenkins.\n\nSet up automated unit testing using PyTest and Jenkins."
+    },
+    "22": {
+        "number": "22",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Kotlin application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Kotlin application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Kotlin application."
+    },
+    "23": {
+        "number": "23",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using ESLint and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using ESLint and Jenkins.\n\nSet up automated code quality checks using ESLint and Jenkins."
+    },
+    "24": {
+        "number": "24",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Ruby on Rails application to AWS Elastic Beanstalk using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Ruby on Rails applications to AWS Elastic Beanstalk using Jenkins.\n\nDeploy a Ruby on Rails application to AWS Elastic Beanstalk using Jenkins."
+    },
+    "25": {
+        "number": "25",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated integration testing using SoapUI and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate integration testing using SoapUI and Jenkins.\n\nSet up automated integration testing using SoapUI and Jenkins."
+    },
+    "26": {
+        "number": "26",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a PHP application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a PHP application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a PHP application."
+    },
+    "27": {
+        "number": "27",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a .NET application to Azure App Service using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of .NET applications to Azure App Service using Jenkins.\n\nDeploy a .NET application to Azure App Service using Jenkins."
+    },
+    "28": {
+        "number": "28",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated end-to-end testing using Cypress and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate end-to-end testing using Cypress and Jenkins.\n\nSet up automated end-to-end testing using Cypress and Jenkins."
+    },
+    "29": {
+        "number": "29",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Swift application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Swift application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Swift application."
+    },
+    "30": {
+        "number": "30",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to Google Kubernetes Engine using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to Google Kubernetes Engine using Jenkins.\n\nDeploy a Docker container to Google Kubernetes Engine using Jenkins."
+    },
+    "31": {
+        "number": "31",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated security testing using Trivy and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate security testing of Docker containers using Trivy and Jenkins.\n\nSet up automated security testing using Trivy and Jenkins."
+    },
+    "32": {
+        "number": "32",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Rust application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Rust application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Rust application."
+    },
+    "33": {
+        "number": "33",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using Pylint and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using Pylint and Jenkins.\n\nSet up automated code quality checks using Pylint and Jenkins."
+    },
+    "34": {
+        "number": "34",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Java application to AWS Lambda using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Java applications to AWS Lambda using Jenkins.\n\nDeploy a Java application to AWS Lambda using Jenkins."
+    },
+    "35": {
+        "number": "35",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated functional testing using Appium and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate functional testing of mobile applications using Appium and Jenkins.\n\nSet up automated functional testing using Appium and Jenkins."
+    },
+    "36": {
+        "number": "36",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Haskell application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Haskell application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Haskell application."
+    },
+    "37": {
+        "number": "37",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to AWS Fargate using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to AWS Fargate using Jenkins.\n\nDeploy a Docker container to AWS Fargate using Jenkins."
+    },
+    "38": {
+        "number": "38",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated performance testing using Apache JMeter and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate performance testing using Apache JMeter and Jenkins.\n\nSet up automated performance testing using Apache JMeter and Jenkins."
+    },
+    "39": {
+        "number": "39",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Scala application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Scala application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Scala application."
+    },
+    "40": {
+        "number": "40",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a web application to Google Cloud Run using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of web applications to Google Cloud Run using Jenkins.\n\nDeploy a web application to Google Cloud Run using Jenkins."
+    },
+    "41": {
+        "number": "41",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated code quality checks using RuboCop and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate code quality checks using RuboCop and Jenkins.\n\nSet up automated code quality checks using RuboCop and Jenkins."
+    },
+    "42": {
+        "number": "42",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build an Elixir application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of an Elixir application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build an Elixir application."
+    },
+    "43": {
+        "number": "43",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to IBM Cloud Kubernetes Service using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to IBM Cloud Kubernetes Service using Jenkins.\n\nDeploy a Docker container to IBM Cloud Kubernetes Service using Jenkins."
+    },
+    "44": {
+        "number": "44",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated security testing using Bandit and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate security testing of Python applications using Bandit and Jenkins.\n\nSet up automated security testing using Bandit and Jenkins."
+    },
+    "45": {
+        "number": "45",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a TypeScript application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a TypeScript application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a TypeScript application."
+    },
+    "46": {
+        "number": "46",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a web application to Heroku using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of web applications to Heroku using Jenkins.\n\nDeploy a web application to Heroku using Jenkins."
+    },
+    "47": {
+        "number": "47",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated end-to-end testing using TestCafe and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate end-to-end testing using TestCafe and Jenkins.\n\nSet up automated end-to-end testing using TestCafe and Jenkins."
+    },
+    "48": {
+        "number": "48",
+        "question": "# Lab Objective\nThe objective of this lab is to create a Jenkins pipeline to build a Perl application.\n\n# Outcome\nAfter completing this lab, you should be able to automate the build process of a Perl application using Jenkins pipelines.\n\nCreate a Jenkins pipeline to build a Perl application."
+    },
+    "49": {
+        "number": "49",
+        "question": "# Lab Objective\nThe objective of this lab is to deploy a Docker container to DigitalOcean Kubernetes using Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate the deployment of Docker containers to DigitalOcean Kubernetes using Jenkins.\n\nDeploy a Docker container to DigitalOcean Kubernetes using Jenkins."
+    },
+    "50": {
+        "number": "50",
+        "question": "# Lab Objective\nThe objective of this lab is to set up automated unit testing using Jest and Jenkins.\n\n# Outcome\nAfter completing this lab, you should be able to automate unit testing of JavaScript applications using Jest and Jenkins.\n\nSet up automated unit testing using Jest and Jenkins."
+    }
+}

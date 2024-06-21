@@ -1,0 +1,25 @@
+resources:
+- ../../base
+
+patches:
+- path: service.yaml
+  target:
+    kind: Service
+    name: mentorship-lab-service
+namespace: mentorship
+replicas:
+- count: 2
+  name: mentorship-lab-deployment
+images:
+  - name: idrisniyi94/devops-mentorship-site
+    newTag: IMAGE_TAG
+namePrefix: prod-
+# change the service NodePort to your desired port
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+labels:
+- includeSelectors: true
+  pairs:
+    app: mentorship-lab
+    env: prod
+
